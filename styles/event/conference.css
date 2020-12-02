@@ -1,0 +1,142 @@
+/* Global Styling
+------------------------------ */
+body{
+    font-family: 'Courier New', Courier, monospace
+}
+
+/* Main section Styling
+------------------------------ */
+main{
+    background-color: lightblue;
+}
+
+.conference-banner img{
+    width: 100%;
+}
+
+.conference-banner h1{
+    border-bottom: solid 1px lightgrey;
+}
+
+.conference-banner{
+    /* width: 80%; */
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.center-content{
+    /* width: 80%; */
+    margin: 0 auto;
+    padding: 50px;
+}
+.center-content img{
+    width: 100%;
+    /* margin: 0 auto; */
+    /* padding: 50px; */
+}
+.centered-blocks{
+ text-align: center;
+}
+
+#main-text{
+    background-color: lightpink;
+}
+
+.block{
+    background-color: #187795;
+    padding: 20px;
+    margin: 10px;
+}
+
+#secondary-text{
+    background-color: lightseagreen;
+}
+
+.border-bottom{
+    border-bottom: solid 1px lightgray;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    body{
+        font-family: 'Courier New', Courier, monospace
+    }
+    
+    main{
+        background-color: white;
+        font-size: 1.2em;
+    }
+    
+    .conference-banner img{
+        width: 100%;
+    }
+    
+    .position-relative{
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    .conference-banner{
+        width: 80%;
+        margin: 0 auto;
+        padding: 50px;
+        font-weight: bold;
+        font-size: 2vw;
+    }
+
+    .center-content{
+        width: 80%;
+        margin: 0 auto;
+        padding: 50px;
+    }
+
+    .centered{
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 50px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .centered-blocks{
+        width: 80%;
+        margin: 0 auto;
+        padding: 50px;
+        text-align: center;
+    }
+
+    .display-flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    
+    #main-text{
+        background-color: lightpink;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .block{
+        background-color: white;
+        padding: 20px;
+        margin: 10px;
+    }
+    .block img{
+        border-radius: 10px;
+    }
+
+    #secondary-text{
+        background-color: lightseagreen;
+        border-radius: 20px 20px 20px 20px;
+    }
+    #secondary-text ul{
+        list-style-type: square;
+    }
+    
+    .border-bottom{
+        border-bottom: solid 1px lightgray;
+    }
+  }

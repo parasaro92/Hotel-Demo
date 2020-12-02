@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Regency</title>
+    <link rel="stylesheet" href="../styles/fitness/Foodie.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="shortcut icon" href="../images/cover/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <h2>The Regency</h2>
+            </div>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-close" onclick="closeMenu()"></i>
+            <ul>
+                <a href="#"><li>HOME</li></a>
+                <a href="#"><li>ABOUT</li></a>
+                <a href="#"><li>MENU</li></a>
+                <a href="#"><li>CONTACT</li></a>
+                
+            </ul>
+            <button type="button" class="btn">SIGN UP</button>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        <div class="vertical-bar">
+            <div class="search-icon">
+                <i class="fa fa-list"></i>
+                <i class="fa fa-search"></i>
+
+            </div>
+            <div class="social-icons">
+                <i class="fa fa-facebook-official"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-pinterest-square"></i>
+
+            </div>
+        </div>
+        <div class="notifications">
+            <div class="contents">
+                <small>Subscribe To Our Food News Letter Written By Renowned Chef</small>
+                <p><a href="">PREV</a><a href="">NEXT</a></p>
+                <div class="notifications-img">
+                    <img src="../images/fitness/Girl.jpg" alt="#">
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="banner-title">
+            <h3>Hungry:<span>We Just Have The Food </span> That You Would You Love!</h3>
+            <button type="button" class="btn">EXPLORE</button>
+        </div>
+    </div>
+    <script>
+        var show = document.getElementById("nav-links");
+        function showMenu(){
+            show.style.right = "0";
+
+        }
+        function closeMenu(){
+            show.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

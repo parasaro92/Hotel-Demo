@@ -1,0 +1,15 @@
+#carousel__slide1 {
+  background-image: url(../../images/rooms/deluxe1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#carousel__slide2 {
+  background-image: url(../../images/rooms/deluxe2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#carousel__slide3 {
+  background-image: url(../../images/rooms/deluxe3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

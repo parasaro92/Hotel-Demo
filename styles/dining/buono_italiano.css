@@ -1,0 +1,83 @@
+/* Global Styles
+---------------------- */
+body{
+    margin: 0;
+}
+
+
+
+/****************
+*
+* Main Section 
+*
+*****************/
+
+/* main-heading consists image and h2;
+this styles background color as black */
+.main-heading{
+    background-color: black;
+}
+
+/* Image scales as window size changes  */
+.main-heading img{
+    width: 100%;
+}
+
+figure{
+    margin: 0;
+}
+
+/* Aligns the text in center of container
+Used in main section */
+.center-align{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* formatting h2 */
+.main-heading h2{
+    font-size: 5vw;
+    padding: 20px;
+    /* margin: 0 auto; */
+    color: white;
+}
+/* formatting for para in main area */
+.info{
+    font-size: 1.5em;
+    padding: 20px;
+}
+.info p{
+    padding: 10px;
+}
+/* formatting menu links in main section */
+.menu-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3em;
+}
+.menu-items figure{
+    padding: 30px;
+}
+.menu-items img{
+    width: 100px;
+    border-radius: 200px;
+}
+.menu-items a{
+    text-decoration: none;
+}
+.menu-items figure:hover{
+    background-color: #DCDCDC;
+}
+/* Animation to menu items */
+.eatables, .drinks{
+    transition: transform .5s;
+}
+.eatables:hover{
+    transform: rotate(5deg);
+  }
+.drinks:hover {
+    transform: rotate(-5deg);
+  }

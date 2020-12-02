@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Regency</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="This is The Regency page" />
+    <meta name="keywords" content="The Regency" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../images/cover/favicon.ico">
+    <link href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' rel='stylesheet' type='text/css'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/blog_styles/blog.css">
+
+    <!-- Added hamburger menu -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="../scripts/navbar.js"></script>
+</head>
+<body>
+    <header class="cover-header">
+        <nav class="cover-nav">
+            <div class="menu">
+                <img class="cover-logo" src="../images/cover/cover.png" alt="Regency Hotel">
+                <ul class="clearfix">
+                    <li><a href="../cover-page.html">Home</a></li>
+                    <li><a href="../rooms_views/rooms.html">Rooms </a></li>
+                    <li><a href="../dining.html">Dining</a></li>
+                    <li><a href="../event_views/events_main-page.html">Events</a></li>
+                    <li><a href="../fitness_views/Wellness.html">Fittness</a></li>
+                    <li><a href="../blog_views/blog.html">Blog</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="main-blog">
+            <img src="../images/blog/hotel.jpg" alt="" />
+            <div class="blog-detail-header">
+                <h1>Timeless Luxury & Heritage Since 1900</h1>
+                <p>OCTOBER 20, 2020 by SAM JOE</p>
+            </div>
+        </div>
+
+        <div class="blog-detail-container">
+            <article class="blog-detail-content">
+                <h3>WALK THROUGH THE CORRIDORS OF TIMELESS LUXURY AND HERITAGE.</h3>
+                <p>
+                    We are pleased to present Stories from the Regency - a dedicated series that opens up a treasure trove of interesting tales and insights from our featured hotel.
+                </p><br />
+                <p>
+                    Designed originally by Mexican architects Ronald and AD Maiz, the Regency hotel was laid in 1890.
+                </p><br />
+
+                <p>
+                    The Regency continues to be a symbol of grandeur and is considered one of the finest hotels in the world.
+                    But above all, it is the people and legendary hospitality that makes up the heart and soul of this heritage hotel!
+                </p> <br />
+
+                <p>
+                    So the next time you are in Regency, join us on a heritage walk to explore a bit of art and history, have a meal at one of our nine acclaimed restaurants or better still, soak it all in with a luxurious stay.
+                </p> <br />
+
+            </article>
+
+            <section class="blog-comment-list">
+                <h3>Comments</h3>
+                <article class="blog-comment-list-item">
+                    <img src="../images/blog/user.png" alt="Alt" />
+                    <h3 class="blog-commenter-name">
+                        Sam doe
+                    </h3>
+                    <p style="color: gray">sam@abc.com</p>
+                    <p class="blog-comment-description">
+                        It was really a great experience.
+                        Thank you Regency for such a wonderful experience. Hope to visit again this nice place.
+                    </p>
+                </article>
+
+                <article class="blog-comment-list-item">
+                    <img src="../images/blog/user.png" alt="Alt" />
+                    <h3 class="blog-commenter-name">
+                        Jhon
+                    </h3>
+                    <p style="color: gray">jhon@abc.com</p>
+                    <p class="blog-comment-description">
+                        Such a overwhelming post. Reading this post really escalate my crave to visit this excellent hotel.
+                    </p>
+                </article>
+
+                <article class="blog-comment-list-item" id="hiddenItem" style="display:none">
+                    <img src="../images/blog/user.png" alt="Alt" />
+                    <h3 class="blog-commenter-name" id="nameText">
+                        Jhon
+                    </h3>
+                    <p style="color: gray" id="emailText">jhon@abc.com</p>
+                    <p class="blog-comment-description" id="commentText">
+                        Such a overwhelming post. Reading this post really escalate my crave to visit this excellent hotel.
+                    </p>
+                </article>
+            </section>
+
+            <section class="comment-box">
+                <h3>Leave a Comment</h3>
+                <p>Your email address will not be published. Required fields are marked <span class="required">*</span></p>
+                <form id="commentForm">
+                    <label for="name">Name<span class="required">*</span></label>
+                    <input type="text" name="name" id="name" value="" />
+
+                    <label for="email">Email<span class="required">*</span></label>
+                    <input type="text" name="email" id="email" value="" />
+
+                    <label for="comment">Comment</label>
+                    <textarea rows="6" name="comment" id="comment"></textarea>
+
+                    <input type="button" value="Post Comment" class="primary-btn" onclick="addComment()" />
+                </form>
+            </section>
+
+        </div>
+    </main>
+    <footer class="cover-footer">
+        <div class="cover-address">
+            <p>007, Atlanta Park India Phone : (211) 9275693451 <br> Email : tribe@info.com</p>
+        </div>
+        <br />
+        <div class="cover-social">
+            <div class="cover-social">
+                <a href="#"> <img src="../images/cover/fb.png" alt="fb"></a>
+                <a href="#"> <img src="../images/cover/G.png" alt="g"> </a>
+                <a href="#"> <img src="../images/cover/twittr.png" alt="twitter"> </a>
+                <a href="#"> <img src="../images/cover/insta.png" alt="insta"> </a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function addComment() {
+            let name = document.getElementById('name').value;
+            let comment = document.getElementById('comment').value;
+            let email = document.getElementById('email').value;
+
+            document.getElementById('nameText').textContent = name;
+            document.getElementById('commentText').textContent = comment;
+            document.getElementById('emailText').textContent = email;
+
+            document.getElementById('hiddenItem').style.display = "grid";
+
+            //clear form data
+            document.getElementById("commentForm").reset();
+        }
+    </script>
+</body>
+</html>

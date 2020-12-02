@@ -1,0 +1,513 @@
+.tm-roomsection{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 0 40px;
+}
+
+.tm-main{
+  padding: 2%;
+}
+
+.tm-main p {
+  padding: 1%;
+  text-align: center;
+}
+
+.tm-heading {
+  margin: 0 20%;
+  text-align: center;
+}
+
+.tm-block {
+  font-size: 42px;
+  color: #343A40;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 35px;
+  margin-bottom: 25px;
+}
+
+.tm-desc {
+  font-size: 17px;
+  color: #555;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  width: 100px;
+  margin: 15px auto;
+  border-color: #333;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  min-height: 340px;
+}
+
+.tm-room1 {
+  max-width: 33.33333%;
+  width: 33.333333%;
+  background: #212529;
+  display: inline-block;
+  margin: 0px;
+  position: relative;
+}
+
+.tm-room1 p {
+  font-size: 2.5vw;
+  color: #fff;
+  text-align: center;
+  padding: 5%;
+  z-index: 2;
+  position: relative;
+}
+
+
+.tm-roomimage{
+  max-width: 100%;
+  width: 100%;    
+}
+
+.tm-trans{
+  display: inline-block;
+  position: absolute;
+  top: 78%; /*78*/
+  color: #fff;
+  max-width: 100%;
+  width: 100%;
+  height: 0%; /*0*/
+  background: rgba(53, 53, 53,0.7);
+  opacity: 0; /*0*/
+}
+
+.tm-trans p{
+  font-size: 1.8vw;
+
+}
+.tm-trans div{
+  display: inline-table;
+  width: 40%;
+  max-width: 40%;
+  margin: 2%;
+}
+
+.tm-room1:hover .tm-trans{
+  top: 30%;
+  transition: top 1s, opacity 1s, height 1s;
+  opacity: 1;
+  height: 50%;
+  z-index: 1;
+}
+
+.tm-image {
+  max-width: 20%;
+  height: auto;
+  padding-top: 2%;
+  width: 10%;
+  display: inline-block;
+  float: left;
+}
+
+.tm-facility {
+  display: flex;
+}
+
+.tm-service {
+  max-width: 30%;
+  width: 30%;
+  margin: 1.5% 12% 1.5% 10%;
+}
+
+.tm-services {
+  display: inline-block;
+  max-width: 75%;
+  padding: 2%;
+  margin: 0 3%;
+}
+
+.tm-services p {
+  font-size: 1.5vmax;
+  text-align: left;
+}
+
+.tm-services .b {
+  padding-bottom: 2%;
+}
+
+.tm-room {
+  padding: 40px 0;
+}
+
+.tm-room {
+  /* background: #343A40; */
+  padding: 2%;
+}
+
+.tm-room p {
+  padding: 1%;
+}
+
+/* Deluxe room */
+
+.deluxe-desc {
+  background-image: url("../../images/rooms/room-service.jpg");
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+}
+
+.greyscale {
+  background: -webkit-linear-gradient(top, rgba(101,100,96,0) 0%,rgba(101,100,96,0.2) 60%,rgba(28,28,28,1) 100%);
+  height: 100%;
+}
+
+#deluxe .container {
+  width: 1200px;
+  margin: auto;
+  padding: 0px;
+  height: 100%;
+}
+
+#deluxe .room-tab {
+  /* width: 90%; */
+  display: flex;
+}
+
+#deluxe ul {
+  display: flex;
+  list-style-type: none;
+  width: 75%;
+}
+
+.h85 {
+  height: 85%;
+}
+
+.room-tab ul li {
+  margin-right: 38px;
+}
+
+#deluxe .heading {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  padding-bottom: 5px; 
+}
+
+#deluxe .active {
+  border-bottom: 2px solid #fff;
+}
+
+#deluxe .price {
+  width: 25%;
+  float: right;
+  position: relative;
+  bottom: 5px;
+  font-size: 27px;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.p30 {
+  padding: 30px 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.pad10 {
+  padding: 10px 0;
+}
+
+.service {
+  justify-content: space-around;
+  /* width: 60%; */
+}
+
+.service-help {
+  /* width: 20%; */
+  text-align: center;
+}
+
+.service-help p {
+  text-transform: uppercase;
+}
+
+.service-desc {
+  /* width: 60%; */
+  line-height: 27px;
+  /* margin-bottom: 25px; */
+}
+
+.room_helper {
+  /* width: 60%; */
+}
+
+.room_helper > p {
+  font-size: 18px;
+  padding: 20px 0 10px;
+  color: #525252;
+  clear: both;
+}
+
+.room_help {
+  display: flex;
+  padding: 10px 0px;
+  /* width: 15%; */
+}
+
+.room_help > p {
+  align-self: center;
+}
+
+.room_help > img {
+  margin-right: 15px;
+}
+
+.room_helper .setting {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.room_info_content .hotel_services {
+  float: left;
+  width: 20%;
+}
+
+.refund_info .hotel_refund {
+  margin: 15px 0;
+}
+
+.policy {
+  padding: 25px 0 10px;
+}
+
+.room_info_heading {
+  margin-bottom: 5px;
+  margin-top: 25px;
+  /* y: .5; */
+  font-size: 16px;
+  color: #000;
+  text-transform: capitalize;
+  clear: both;
+}
+
+.circle-small {
+  opacity: .5;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 3px;
+  background: #fff;
+  font-style: normal;
+  text-transform: initial;
+}
+
+.room-book {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 14px;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 960px) {
+  #deluxe .container {
+    width: 960px;
+  }
+}
+
+@media only screen and (max-width: 959px) and (min-width: 768px) {
+  #deluxe .container {
+    width: 748px;
+  }
+
+  #deluxe .price {
+    width: 25%;
+    float: right;
+    position: relative;
+    bottom: 5px;
+    font-size: 27px;
+    color: #fff;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+
+  .tm-heading {
+    margin: 0 10%;
+  }
+
+  .tm-roomsection {
+    margin: 0 0 20px;
+  }
+  
+  .tm-services p {
+    font-size: 13px;
+  }
+
+  .tm-image {
+    width: 12%;
+  }
+
+  #deluxe .container {
+    width: 460px;
+  }
+
+  #deluxe .room-tab {
+    width: 100%;
+    display: block;
+  }
+
+  .room-tab > ul > li {
+    width: 100%;
+    padding: 15px;
+  }
+
+  #deluxe .price {
+    text-align: center;
+    font-size: 27px;
+    color: #fff;
+    width: 100%;
+    float: left;
+    bottom: 0;
+    padding: 15px;
+  }
+
+  #deluxe ul {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .h85 {
+    height: 250px;
+  }
+
+  .room_helper .setting {
+    display: block;
+    margin-bottom: 5%;
+  }
+
+  .mt_phone {
+    /* margin-top: 40px; */
+  }
+
+  .room_info_content .hotel_services {
+    float: none; 
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 479px) and (min-width: 320px) {
+
+  .tm-roomsection {
+    display: block;
+    text-align: center;
+  }
+
+  .tm-room1 {
+    max-width: 100%;
+    width: 50%;
+    margin: 15px;
+  }
+
+  .tm-roomsection {
+    margin: 0 0 -17px;
+  }
+
+  .tm-room2:hover .tm-trans{
+    top: 34% !important;
+    left: 0;
+  }
+
+  .tm-desc {
+    font-size: 12px;
+  }
+
+  .tm-block {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
+  .tm-heading {
+    margin: 0 10%;
+  }
+
+  .tm-services p {
+    font-size: 13px;
+  }
+
+  .tm-image {
+    width: 20%;
+    margin-left: 4px;
+  }
+
+  .tm-services {
+    max-width: 100%;
+  }
+
+  #deluxe .container {
+    width: 300px;
+  }
+
+  #deluxe .room-tab {
+    width: 100%;
+    display: block;
+  }
+
+  .room-tab > ul > li {
+    width: 100%;
+    padding: 15px;
+  }
+
+  #deluxe .price {
+    text-align: center;
+    font-size: 27px;
+    color: #fff;
+    width: 100%;
+    float: left;
+    bottom: 0;
+    padding: 15px;
+  }
+
+  #deluxe ul {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .h85 {
+    height: 250px;
+  }
+
+  .room_helper .setting {
+    display: block;
+    margin-bottom: 5%;
+  }
+
+  .d-flex {
+    display: block;
+  }
+
+  .mt_phone {
+    margin-top: 40px;
+  }
+
+  .room_info_content .hotel_services {
+    float: none; 
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 900px) {
+  .tm-room {
+    padding: 20px 0;
+  }
+}

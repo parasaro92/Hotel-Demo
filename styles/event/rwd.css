@@ -1,0 +1,147 @@
+/*****************
+Head.
+*****************/
+
+
+
+/*****************
+Global styles.
+*****************/
+body {
+    background-color: lightgrey;
+    font: 100% Arial, Helvetica, sans-serif;
+    /*border-bottom: 10px solid gold;*/
+}
+
+h1 {
+    font-family: Georgia,"Times New Roman", serif;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: center;
+    color: #f1f1f1;
+    width: 50%;
+    padding: 10px;
+    position: absolute;
+    bottom: 230px;
+    left: 16px;
+}
+h2 {
+    font-family: Georgia,"Times New Roman", serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: center;
+    color: #f1f1f1;
+    padding: 10px;
+    position: absolute;
+    bottom: 200px;
+    left: 16px;
+}
+p {
+    font-size: 1em;
+    font-weight: lighter;
+    font-style: center;
+    text-align: justify;
+    color: rgb(68, 67, 67);
+    line-height: 150%;
+}
+
+/*****************
+Main.
+*****************/
+
+.cover {
+    background-image: url(/group-project-task-list-3-the-tribe/images/events/backgroundpicture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.9;
+}
+.note {
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 45%; /* Full width */
+    padding: 20px;
+    position: absolute;
+    bottom: -50px;
+    left: 16px;
+ }
+
+.content1 {
+    float: left;
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+}
+.content2 {
+    float: left;
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+}
+.content3 {
+    float: right;
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+}
+ /*****************
+Personal Section.
+*****************/
+.personal {
+    font-size: 0.8em;
+    font-weight: lighter;
+    font-style: justify;
+    /*margin: 10px 10px 10px;*/
+    line-height: 200%;
+    color: rgb(114, 113, 113);
+}
+/*****************
+Exhibition Section.
+*****************/
+.exhibition {
+    font-size: 0.8em;
+    font-weight: lighter;
+    font-style: justify;
+    margin: 10px 10px 10px;
+    line-height: 200%;
+    color: rgb(114, 113, 113);
+}
+/*****************
+Memorable Section.
+*****************/
+.memorable {
+    font-size: 0.8em;
+    font-weight: lighter;
+    font-style: justify;
+    margin: 10px 10px 10px;
+    line-height: 200%;
+    color: rgb(114, 113, 113);
+}
+ .image1 {
+     height: 300px;
+     width: 500px;
+     border-radius: 10px;
+     margin: 10px 10px 10px;
+ }
+ .image2 {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    margin: 10px 10px 10px;
+}
+
+.image3 {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    margin: 10px 10px 10px;
+}
+/*****************
+Footer.
+*****************/
+/*footer {
+
+    background-color: white;
+    padding: 1em;
+    text-align: center;
+}

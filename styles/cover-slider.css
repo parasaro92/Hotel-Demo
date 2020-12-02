@@ -1,0 +1,107 @@
+#carousel__slide1 {
+  background-image: url(../images/cover/cover1.jpg);
+}
+#carousel__slide2 {
+  background-image: url(../images/cover/cover2.jpg);
+}
+
+.tm-room1 {
+  max-width: 22.33333%;
+  width: 33.333333%;
+  background: #212529;
+  margin: 1%;
+}
+
+.tm-roomsection {
+  margin: 0 0 40px;
+  display: block;
+  text-align: center;
+}
+
+.tm-room1:hover .tm-trans {
+  top: 30%;
+  transition: right 1s, opacity 1s, height 1s;
+  opacity: 0.8;
+  height: 18%;
+  z-index: 1;
+  padding: 0 25%;
+  background: #fff;
+  right: 25%;
+}
+
+.cover-trans {
+  width: 0;
+  right: 100%;
+}
+
+.cover-trans div {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  position: absolute;
+  left: 0;
+}
+
+.cover-trans p {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.cover-head {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.cover-block {
+  font-size: 25px;
+  color: #343A40;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 35px;
+}
+
+.gallery:hover {
+  opacity: 0.9;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 960px) {
+  #explore .container {
+    width: 100%;
+  }
+  
+  .tm-room1 {
+    width: 40%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 959px) and (min-width: 769px) {
+  #explore .container {
+    width: 100%;
+  }
+  .tm-room1 {
+    width: 45%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+  #explore .container {
+    width: 100%;
+  }
+  .tm-room1 {
+    width: 75%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 320px) {
+  #explore .container {
+    width: 100%;
+  }
+  .tm-room1 {
+    width: 85%;
+    max-width: 100%;
+  }
+}

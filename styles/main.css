@@ -1,0 +1,226 @@
+/* Colour Palette */
+
+/* For background colour of pages, we will be using grey scale, blue-grey scale, light-blue scale
+grey scale: #f5f5f5, #e0e0e0, #fff
+light-blue scale: #E1F5FE, #E3F2FD
+Primary, Secondary, Tertiary Colors
+HEX Code
+F8F9FA E9ECEF DEE2E6 CED4DA ADB5BD 6C757D 495057 343A40 212529 */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.secondary {
+  color: #7e7e7e;
+}
+
+/* h1 {
+  font-size: 40px;
+  color: #525252;
+} */
+
+.main {
+  height: 100%;
+  position: absolute;
+  width: -webkit-fill-available;
+}
+
+#cover {
+  height: 75%;
+}
+
+.cover-header {
+  background: #000;
+  display: block;
+  padding: 5px;
+  
+}
+
+.cover-logo {
+  width: 130px;
+}
+
+.cover-nav {
+  max-width: 95%;
+  display: block;
+  margin: auto;
+
+}
+
+.cover-nav div {
+  display: flex;
+  align-items: center;
+}
+
+.cover-nav div ul li{
+  border-radius: 20px;
+}
+
+.cover-nav div ul li a{
+  font-size: 1.6vw;
+  text-decoration: none;
+  color: #fff;
+  line-height: 50px;
+}
+
+.cover-nav div ul li a:hover {
+	color: #212529;
+	background: #f0f0f0;
+	border-radius: 20px;
+}
+
+/* For Mobile Hamburger View */
+
+.menu img {
+	max-width: 100%;
+}
+.menu-mobile {
+	display: none;
+	padding: 20px;
+}
+.menu-mobile:after {
+	content: "\f394";
+	font-family: "Ionicons";
+	font-size: 2.5rem;
+	padding: 0;
+	float: right;
+	color: #fff;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-25%);
+	transform: translateY(-25%);
+}
+.menu-dropdown-icon:before {
+	content: "\f489";
+	font-family: "Ionicons";
+	display: none;
+	cursor: pointer;
+	float: right;
+	padding: 1.5em 2em;
+	background: #fff;
+	color: #333;
+}
+.menu > ul {
+	list-style: none;
+	margin: 0 auto;
+}
+.menu > ul:before,
+.menu > ul:after {
+	content: "";
+	display: table;
+}
+.menu > ul:after {
+	clear: both;
+}
+.menu > ul > li {
+	float: left;
+}
+.menu > ul > li a {
+	/* text-decoration: none; */
+	padding: 0.5em 2em;
+}
+
+/*header ends here and footer start*/
+
+/* footer */
+
+.cover-footer{
+  background: #000;
+ display: block;
+ padding: 20px;
+ position: relative;
+
+}
+
+.cover-address p {
+  text-align: center;
+  color: #fff;
+}
+
+.cover-social{
+  text-align: center;
+}
+
+.cover-social img{
+  height: auto; 
+  margin: 0.5%;
+}
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Mobile style's
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+@media (min-width: 1024px) {
+  .cover-social img {
+    width: 3%;
+  }
+}
+
+@media only screen and (max-width: 959px) {
+
+  .cover-nav div ul li a{
+    font-size: 16px;
+  }
+
+  .cover-nav div {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .menu-container {
+    width: 100%;
+  }
+  .menu-container .menu {
+    display:inline-block;
+  }
+  .menu-mobile {
+    display: block;    
+    float: right;    
+    padding: 20px 20px 0;
+    position: relative;
+    top: 45px;
+  }
+  .menu-dropdown-icon:before {
+    display: block;
+  }
+  .menu > ul {
+    display: none;
+    width:100%;
+    margin-left: 0;
+  }
+  .menu > ul > li {
+    width: 100%;
+    float: none;
+    display: block;
+  }
+  .menu > ul > li a {
+    /* padding: 1.5em; */
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .menu .show-on-mobile {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 560px) and (max-width: 767px) {
+	.cover-logo {
+		width: 24%;
+	}
+}
+
+@media only screen and (min-width: 375px) and (max-width: 560px) {
+  #cover {
+    background-position: center;
+	}
+	
+	.cover-logo {
+		width: 36%;
+	}
+}

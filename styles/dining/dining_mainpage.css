@@ -1,0 +1,233 @@
+/* MOBILE ONLY STYLING */
+/* Global styling
+------------------------- */
+/* Selects a font type and sets margin for body to 0 */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+p{
+    padding: 15px;
+}
+
+/* To make text bold */
+.bold{
+    font-weight: bold;
+}
+
+/* To center align the text content */
+.center-text{
+    text-align: center;
+}
+
+.image-section-content{
+    font-size: 5vw;
+    font-family: monospace;
+    background-color: lightyellow;
+    margin: 0;
+}
+
+/* To make images in Image section 
+   in circular form 
+-------------------------------------*/
+.image_section{
+    background-color: lightyellow;
+    padding: 50px;
+}
+.image_wrapper{
+    padding: 30px;
+}
+
+.image_wrapper img{
+    width: 100%;
+    border-radius: 400px;
+}
+
+/* Main content for dining */
+.main-heading{
+    background-color: #101010;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Styles the content area of different cuisines */
+.experience{
+    background-color: navajowhite;
+    padding-bottom: 20px;
+}
+.experience_image{
+    background-color: steelblue;
+}
+.experience h3{
+    margin: 0;
+    font-style: italic;
+    background-color: steelblue;
+}
+.experience_image img{
+    width: 100%; 
+}
+.experience_content{
+    padding: 5px;
+}
+.experience_content a{
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* Styles the form */
+.container{
+    background-color: lightyellow;
+}
+form{
+    padding: 10px;
+    width: 20%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+
+
+/* Styling for devices having screen width greater than 768px 
+--------------------------*/
+
+@media only screen and (min-width:768px) {
+    
+/*             Main Section
+-----------------------------------  */
+/* Styling for images section in circular shape */
+.image_section{
+    background-color: white;
+}
+
+.image-section-content{
+    font-size: 2vw;
+    background-color: lightyellow;
+}
+
+/* This block of code helps in getting a triangle shape
+    in image section */
+.image_wrapper{
+    display: inline-block;
+    background-color: white;
+    width: 32%;
+    margin: 0;
+    padding: 15px;
+}
+
+/* Provides zoom in animation when hover on images in image section */
+.image_wrapper figure{
+    transition: transform .2s; /* Animation */
+}
+.image_wrapper figure:hover{
+    transform: scale(1.1); /* (110% zoom) */
+}
+
+.image_wrapper figcaption{
+    font-size: 1.5vw;
+}
+.image_section img{
+    width: 100%;
+    border-radius: 500px;
+}
+
+/*This section styles 'The regency dining' heading */
+.main-heading{
+    font-size: 3vw;
+}
+
+/*This section styles different dining experiences */
+.experience{
+    display: flex;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+}
+
+/* Makes Indian dining row direction right to left */
+.experience-2{
+    flex-direction: row-reverse;
+}
+/* Aligns image to center of div */
+.experience_image{
+    align-self: center;
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+} 
+.experience_image img{
+    border-radius: 10px;
+}
+/* Aligns content to center of div, and flex-basis defines width 
+for the child-item of flex*/
+.experience-content-div{
+    flex-basis: 50%;
+    align-self: center;
+    padding: 5px;
+    font-size: 1.5vw;
+}
+.experience-content-div h3{
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+/* To center align the content in the div 
+and leave equal margin on both sides */
+.experience_content{
+    width: 80%;
+    margin: 0 auto;
+}
+.experience_content a{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+/* Provides animation effect */
+.link{
+    transition: transform .2s; /* Animation */
+}
+.link:hover{
+    transform: scale(1.2); /* (120% zoom) */
+}
+
+/* Form Styling */
+.container{
+    background-color: white;
+}
+form{
+    width: 20%;
+    margin: 0 auto;
+}
+
+/* Styling of input fields */
+input, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+  }
+input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+.container {
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+}
