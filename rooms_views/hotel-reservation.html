@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>The Regency Hotel</title>
+  <meta name="keywords" content="The Tribe Resort" />
+  <meta name="description" content="3-Star boutique hotel" />
+  <link rel="shortcut icon" href="../images/cover/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- For Icons -->
+  <link href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' rel='stylesheet' type='text/css'>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="../styles/rooms/rooms.css">
+  <link rel="stylesheet" href="../styles/rooms/reservation.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/css/pikaday.min.css" rel="stylesheet" type="text/css" />
+
+  <!-- Added hamburger menu -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="../scripts/navbar.js"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <section class="main">
+    <header class="cover-header">
+      <nav class="cover-nav">
+        <div class="menu">
+          <img class="cover-logo" src="../images/cover/cover.png" alt="Regency Hotel">
+          <ul class="clearfix">
+            <li><a href="../cover-page.html">Home</a></li>
+            <li><a href="../rooms_views/rooms.html">Rooms</a></li>
+            <li><a href="../dining_views/dining_mainpage.html">Dining</a></li>
+            <li><a href="../event_views/events_main-page.html">Events</a></li>
+            <li><a href="../fitness_views/Wellness.html">Fittness</a></li>
+            <li><a href="../blog_views/blog.html">Blog</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="deluxe">
+      <div class="hotel-reservation">
+        <div class="reservation-greyscale">
+          <div class="container reservation-bar">
+            <div class="room-tab">
+              <h1 class="room-head">Booking</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tm-main">
+      <div class="tm-heading">
+        <p class="tm-block">Hotel Reservation</p>
+      </div>
+      <hr>
+    </section>
+
+    <form method="get" onSubmit="return validateForm();" action="./deluxe-room.html" class="reservation-form">
+      <div class="form-wrapper">
+        <div class="form-name">First name<span class="col_red"> *</span><br/>
+          <input type="text" id="first_name" name="first_name" class="form-control form1" />
+        </div>
+        <div class="form-name">Last name<span class="col_red"> *</span><br/>
+          <input type="text" id="last_name" name="last_name" class="form-control form1" />
+        </div>
+      </div>
+
+      <div class="form-details">Phone<span class="col_red"> *</span><br/>
+        <input type="text" id="phone" name="phone" class="form-control form1 form2" />
+      </div>
+      <div class="form-details">Email<span class="col_red"> *</span><br/>
+        <input type="text" id="email" name="email" class="form-control form1 form2" />
+      </div>
+      <div class="form-details">Arrival date<span class="col_red"> *</span><br/>
+        <input type="text" id="arrival_date" name="arrival_date" class="form-control form1 form2" />
+      </div>
+
+      <div class="form-details">Departure date<span class="col_red"> *</span><br/>
+        <input type="text" id="departure_date" name="departure_date" class="form-control form1 form2" />
+      </div>
+
+      <div class="form-details">Number of adults<span class="col_red"> *</span><br/>
+        <input type="number" id="person" name="person" class="form-control form1 form2" />
+      </div>
+      <div class="form-details">Number of children<br/>
+        <input type="number" id="childrens" name="childrens" class="form-control form1 form2" />
+      </div>
+      <div class="form-details">Questions / Comments<br/>
+        <textarea id="comments" false name="comments" rows="6" class="form-control form1 form2"></textarea>
+      </div>
+      <div class="form-details"><input name="skip_Submit" value="Submit" type="submit" class="checkout" /></div>
+    </form>
+
+    <!-- Footer -->
+    <footer class="cover-footer">
+      <div class="cover-address">
+        <p>007, Atlanta Park India Phone : (211) 9275693451 <br> Email : the-regency@info.com</p>
+      </div>
+      <br/>
+      <div class="cover-social">
+        <a href="#"> <img src="../images/cover/fb.png"></a>
+        <a href="#"> <img src="../images/cover/G.png"> </a>
+        <a href="#"> <img src="../images/cover/twittr.png"> </a>
+        <a href="#"> <img src="../images/cover/insta.png"> </a>
+      </div>
+    </footer>
+  </section>
+
+  <!-- For Date purpose -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/pikaday.min.js" type="text/javascript"></script>
+  <script src="../scripts/reservation.js"></script>
+</body>
+
+</html>

@@ -186,6 +186,10 @@ hr {
 
 .h85 {
   height: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .room-tab ul li {
