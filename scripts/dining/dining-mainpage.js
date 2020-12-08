@@ -8,6 +8,8 @@ var imageArrayBakery = ["../../images/dining/bakery2_1.jpeg", "../../images/dini
 
 //Clicking slider function for images
 var imgNumber = 0;
+
+//Setting topLimit variable for each array
 var topLimitItalian = imageArrayItalian.length - 1;
 var topLimitIndian = imageArrayIndian.length - 1;
 var topLimitBakery = imageArrayBakery.length - 1;
@@ -80,6 +82,7 @@ function createTicket(){
     let text1 = document.createTextNode("Your reservations with reference number: " + ticketNum + " have been successfully made under the name '" + firstname + " " + lastname + "' on " + timing);
     let text2 = document.createTextNode("Please enter all the details");
 
+    //Checks to make sure no field is blank
     if(fname!='' && lname!='' && contact!='' && timing!=''){
         para.appendChild(text1);
     }
@@ -87,8 +90,8 @@ function createTicket(){
         para.appendChild(text2);
     }
 
-
     let ticketDiv = document.getElementById("displayTicket");
+    //On each click, first empty the contents in div, then append child
     ticketDiv.innerHTML = '';
     ticketDiv.appendChild(para);
 }

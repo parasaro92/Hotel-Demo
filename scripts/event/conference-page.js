@@ -27,16 +27,13 @@ function ChangeImages(direction)
     {
         imgNumber = topLimit;
     }
+
     document.getElementById('slideshowStylish').src = imageArrayStylish[imgNumber];
     document.getElementById('slideshowLit').src = imageArrayLit[imgNumber];
     document.getElementById('slideshowComfortable').src = imageArrayComfortable[imgNumber];
     document.getElementById('slideshowElegant').src = imageArrayElegant[imgNumber];
     document.getElementById('slideshowModular').src = imageArrayModular[imgNumber];
 }
-
-
-
-
 
 
 //
