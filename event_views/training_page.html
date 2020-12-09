@@ -15,6 +15,7 @@
     <!-- Added hamburger menu -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="../scripts/navbar.js"></script>
+    <script src="../scripts/training-page.js"></script>
 </head>
 <body>
 <!-- Team header -->
@@ -33,32 +34,6 @@
             </div>
         </nav>
     </header>
-      <!--</header>
-            <header>
-                <nav class="main-nav">  
-                    <ul>
-                        <li class="active"><a href="home.html">HOME</a></li>
-                        <li><a href="overview.html" class="nav bar">OVERVIEW</a></li>
-                        <li><a href="deals.html" class="nav bar">DEALS</a></li>
-                        <li><a href="dining.html" class="nav bar">DINING</a></li>
-                        <li><a href="wellness&fitness.html" class="nav bar">WELLNESS & FITNESS</a></li>
-                        <li><a href="blog.html" class="nav bar">BLOG</a></li>
-                        <li>
-                            <div class="dropdown"></div>
-                                <button class="dropbtn">EVENTS</button>
-                                <div class="dropdown-content">
-                                <a href="training.html" class="second nav bar">TRAINING</a>
-                                <a href="conference.html" class="second nav bar">CONFERENCE</a>
-                                <a href="parties.html" class="second nav bar">PARTIES</a>
-                                <a href="exhibitions.html" class="second nav bar">EXHIBITIONS</a>
-                                </div>
-                            </div>
-                        </li> 
-                        
-                    </ul>
-                    
-                </nav>
-            </header>-->
     <main>
         <!--Booking form-->
         <form>
@@ -74,25 +49,108 @@
         </form>
          <!--Images for slider-->
         <div class="slideshow-container">
-        <div class="mySlide fade">
-            <img src="../images/event/meeting-room-with-a-view-of-dtla.jpg" id="lastClone" style="max-width:100%" alt="conference room">
-            <img src="../images/event/conference_room_2020.jpg" style="max-width:100%" alt="conference room">
-            <img src="../images/event/Conference-Room-Etiquettes.jpg" style="max-width:100%" alt="conference room">
-            <img src="../images/event/meeting-room-with-a-view-of-dtla.jpg"  style="max-width:100%" alt="conference room">
-            <img src="../images/event/conference_room_2020.jpg"  id="firstClone" style="max-width:100%" alt="conference room">
+            <div class="mySlide fade">
+                <img id="myimage1" src="../images/event/meeting-room-with-a-view-of-dtla.jpg" alt="conference room" width="1000px" height="500px">
+            </div>
+            <!--Next and previous buttons-->
+            <!-- <button id="prevBtn" onclick="plusSlides(-1)">Prev</button> -->
+            <!-- <button id="nextBtn" onclick="plusSlides(-1)">Next</button> -->
+
+            <!--<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(-1)">&#10095;</a>-->
         </div>
 
-        <!--Next and previous buttons-->
-        <button id="prevBtn">Prev</button>
-        <button id="nextBtn">Next</button>
+        <script>
 
-        <!--<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(-1)">&#10095;</a>-->
+        </script>
+
+        <h1>Planning an Event?</h1>
+        <p> The Regency offers four function venues ideal for coorperate meetings & events, private banquets and social gatherings.  
+            Floor-to-ceiling windows fringe our function spaces, delivering an inspirational setting for any small-scale corporate gatherings or seminars.
+            All our meeting rooms are fully equipped with a TV screen, wireless technology and can be configured exactly to your needs.
+            Meanwhile, as you'd expect, everything is taken care of. With dedicated meeting planners, your own Meeting Concierge, and a specialist AV team, 
+            you'll have everything (and everyone) you need to make the event run perfectly.</p>
+            <br>
+            <br>
+        <p>
+            "Wi-fi available throughout hotel"
+            <br>
+            "Excellent quality sound system with large screen television"
+            <br>
+            "Meeting room capacity from 4 - 100 with flexible options "
+        </p> 
+        
+        <div class="meeting_event-section">
+            <div class="row">
+                <div class="col-12 col-xl-6 col-md-6 col-lg-6 col-sm-6">
+                    <div class="meeting-room-box">
+                        <img src="../images/event/the-marshall.jpg" alt="the marshall boardroom" width="385px" height="285px">
+                        <div class="meeting_event-hover">
+                            <h4>Marshall Boardroom</h4>
+                            <hr class="title-hr">
+                            <p>
+                                "The Marshall Board is the most sought after meeting room space. It seats up to 12 delegates who a surrounded 
+                                by a beautiful external view of the city. This private room is highly equipped with audio-visual equipments, 
+                                there's no other place you'd want to have an important meeting at. "
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <p> Floor-to-ceiling windows fringe our function spaces, delivering an inspirational setting for any small-scale corporate gatherings or seminars.
-            All have a TV screen, wireless technology and can be configured exactly to your needs.
-            Meanwhile, as you'd expect, everything is taken care of. With dedicated meeting planners, your own Meeting Concierge, and a specialist AV team, you'll have everything (and everyone) you need to make the event run perfectly.</p>
+        <div class="col-12 col-xl-6 col-md-6 col-lg-6 col-sm-6">
+            <div class="meeting-room-box">
+                <img src="../images/event/the-opulence.jpg" alt="meeting room image" width="385px" height="285px">
+                <div class="meeting_event-hover">
+                    <h4>Opulence Meeting Room</h4>
+                    <hr class="title-hr">
+                    <p>
+                        "The well-appionted Opulence is ideal for trainings and product launches. It seats up to 30 delegates. "
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="view-setup" class="meeting-event-seating-arrangement-wrapper">
+            <div class="meeting-inner-container">
+                <div class="seeting-top-section">
+                    <ul>
+                        <li>The Marshal</li>
+                        <li>The Opulence</li>
+                        <li>The Aralia</li>
+                        <li>The Sans</li>
+                    </ul>
+                </div>    
+            </div>
+        </div>
+        <div id="area-details" class="area-details-wrapper">
+            <div class="row">
+                <div class="col-md-4 col-lg-4 col-xl-4 col-sm-12">
+                    <div class="area-section">
+                        <p>Length: 12.3m</p>
+                        <p>Width: 7.09m</p>
+                        <p>Height: 2.30m</p>
+                        <p>Area Square Meter: 97m</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-xl-4 col-sm-12">
+                    <div class="area-section">
+                        <p>Length: 7.04m</p>
+                        <p>Width: 4.75m</p>
+                        <p>Height: 3.20m</p>
+                        <p>Area Square Meter: 35m</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-xl-4 col-sm-12">
+                    <div class="area-section">
+                        <p>Length: 5.94m</p>
+                        <p>Width: 3.84m</p>
+                        <p>Height: 2.85m</p>
+                        <p>Area Square Meter: 23m</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
     </main>
     
     <!-- Team footer -->

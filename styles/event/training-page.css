@@ -15,9 +15,14 @@ Global styles.
 * {
   box-sizing: border-box;
 }
+
+div {
+  display: block;
+}
 body {
   background-color: lightgrey;
   font: 100% Arial, Helvetica, sans-serif;
+  line-height: 1.5;
   border-bottom: 10px solid gold; 
   margin: 0;
 }
@@ -60,6 +65,11 @@ main {
   margin: 1em;
 
 }
+
+#area-section {
+  background-color: #717171;
+}
+
 
 /* Dropdown Button */
 /* .dropbtn {
@@ -107,7 +117,7 @@ form {
     max-width: 1000px;
     position: relative;
     margin: auto;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   /* Hide the images by default */
