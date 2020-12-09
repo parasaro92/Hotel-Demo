@@ -13,9 +13,6 @@
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/blog_styles/blog.css">
 
-    <!-- Added hamburger menu -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="../scripts/navbar.js"></script>
 </head>
 <body>
     <header class="cover-header">
@@ -36,7 +33,7 @@
 
     <main>
         <div class="main-blog">
-            <img src="../images/blog/image1.jpg" alt="" />
+            <img src="../images/blog/image1.jpg" alt="" name="slideshow" id="slideshow" />
             <div class="blog-detail-header">
                 <h1>Healing at your leisure</h1>
                 <p>OCTOBER 20, 2020 by SAM JOE</p>
@@ -124,14 +121,17 @@
                 <form id="commentForm">
                     <label for="name">Name<span class="required">*</span></label>
                     <input type="text" name="name" id="name" value="" />
+                    <label style="color:red"></label><br />
 
                     <label for="email">Email<span class="required">*</span></label>
                     <input type="text" name="email" id="email" value="" />
+                    <label style="color:red"></label><br />
 
                     <label for="comment">Comment</label>
                     <textarea rows="6" name="comment" id="comment"></textarea>
+                    <label style="color:red"></label><br />
 
-                    <input type="button" value="Post Comment" class="primary-btn" onclick="addComment()" />
+                    <input type="button" value="Post Comment" class="primary-btn" id="commentBtn" />
                 </form>
             </section>
 
@@ -150,21 +150,11 @@
         </div>
     </footer>
 
-    <script>
-        function addComment() {
-            let name = document.getElementById('name').value;
-            let comment = document.getElementById('comment').value;
-            let email = document.getElementById('email').value;
 
-            document.getElementById('nameText').textContent = name;
-            document.getElementById('commentText').textContent = comment;
-            document.getElementById('emailText').textContent = email;
-
-            document.getElementById('hiddenItem').style.display = "grid";
-
-            //clear form data
-            document.getElementById("commentForm").reset();
-        }
-    </script>
+    <!-- Added hamburger menu -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="../scripts/navbar.js"></script>
+    <script src="../scripts/blog/autoslide.js"></script>
+    <script src="../scripts/blog/comment-validate.js"></script>
 </body>
 </html>
