@@ -15,7 +15,7 @@
     <!-- Added hamburger menu -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="../scripts/navbar.js"></script>
-    <script src="../scripts/training-page.js"></script>
+    <script src="../scripts/event/training-page.js"></script>
 </head>
 <body>
 <!-- Team header -->
@@ -35,18 +35,6 @@
         </nav>
     </header>
     <main>
-        <!--Booking form-->
-        <form>
-            <label for="destination"> Destination </label>
-            <input type="text" id="destination" name="destination" /> 
-            <label for="date"> Dates </label>
-            <input type="date" id="date" name="date" /> 
-            <label for="eventtype"> Event Type</label>
-            <input type="text" id="eventtype" name="eventtype" />
-            <label for="eventspace"> Event Space</label>
-            <input type="text" id="eventspace" name="eventspace" />
-            <input type="submit" name="submit" value="Search">
-        </form>
          <!--Images for slider-->
         <div class="slideshow-container">
             <div class="mySlide fade">
@@ -59,10 +47,6 @@
             <!--<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(-1)">&#10095;</a>-->
         </div>
-
-        <script>
-
-        </script>
 
         <h1>Planning an Event?</h1>
         <p> The Regency offers four function venues ideal for coorperate meetings & events, private banquets and social gatherings.  
@@ -125,7 +109,7 @@
         <div id="area-details" class="area-details-wrapper">
             <div class="row">
                 <div class="col-md-4 col-lg-4 col-xl-4 col-sm-12">
-                    <div class="area-section">
+                    <div class="area-section1">
                         <p>Length: 12.3m</p>
                         <p>Width: 7.09m</p>
                         <p>Height: 2.30m</p>
@@ -133,7 +117,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4 col-xl-4 col-sm-12">
-                    <div class="area-section">
+                    <div class="area-section2">
                         <p>Length: 7.04m</p>
                         <p>Width: 4.75m</p>
                         <p>Height: 3.20m</p>
@@ -141,7 +125,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4 col-xl-4 col-sm-12">
-                    <div class="area-section">
+                    <div class="area-section3">
                         <p>Length: 5.94m</p>
                         <p>Width: 3.84m</p>
                         <p>Height: 2.85m</p>
@@ -150,7 +134,37 @@
                 </div>
             </div>
         </div>
-   
+        <!--Booking form-->
+        <div class="form-section">
+            <div class="form-container">
+                <form>
+                    <label for="fname"> Full Name </label> <br>
+                    <input type="text" id="fname" name="fullname"  placeholder="Enter your full name.." /> 
+                    <br>
+                    <label for="number">Mobile No</label>
+                    <br>
+                    <input type="text" id="number" name="number" placeholder="Enter your mobile number">
+                    <br>
+                    <label for="email">Email Address</label>
+                    <br>
+                    <input type="text" id="email" name="email" placeholder="Enter your email address">
+                    <br>
+                    <label for="date"> Dates </label>
+                    <br>
+                    <input type="date" id="date" name="date" /> 
+                    <br>
+                    <label for="guests"> Number of guests</label>
+                    <br>
+                    <input type="text" id="guest" name="guest" />
+                    <br>
+                    <label for="eventspace"> Event Space</label>
+                    <br>
+                    <input type="text" id="eventspace" name="eventspace" />
+                    <br>
+                    <input type="submit" name="submit" value="Search">
+                </form>
+            </div>
+        </div>
     </main>
     
     <!-- Team footer -->
