@@ -1,0 +1,79 @@
+.hotel-reservation {
+  background-image: url(../../images/rooms/booking.jpg);
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+
+.room-head {
+  font-size: 55px;
+  line-height: 55px;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+.reservation-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.reservation-greyscale {
+  background-color: rgba(67, 74, 84, 0.3);
+  height: 100%;
+}
+
+.reservation-form {
+  margin: auto;
+  max-width: 900px;
+  padding: 5px;
+}
+
+.form-wrapper {
+  display: flex;
+  padding-bottom: 18px;
+}
+
+.form1 {
+  width: 70%;
+  margin: 5px 0;
+  background-color: #f9f9f9;
+  border-width: 1px;
+  border-color: #f1f1f1;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 10px 20px;
+  -webkit-appearance: none;
+  color: #7e7e7e;
+}
+
+.form-name {
+  width: 50%;
+}
+
+.col_red { 
+  color: red;
+}
+
+.form2 {
+  width: 85%;
+}
+
+.form-details {
+  padding-bottom: 18px;
+}
+
+.checkout {
+  background-color: #6AB1BE;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}

@@ -37,7 +37,7 @@
       <main>
         <div class="main-heading">
             <figure>
-                <img src="../images/dining/italian1.jpg" alt="Pizza on a table">
+                <img id="slideshow" src="../images/dining/italian1_1.jpg" alt="Images of Italian dining" >
             </figure>
             <h2 class="center-align">Buono Italiano</h2>
         </div>
@@ -51,19 +51,21 @@
             
             <div class="menu-items">
                 <figure class="eatables">
-                    <a href="../images/dining/italian2.jpg" target="_blank">
-                        <img src="../images/dining/menu1.jpg" alt=""> 
-                    </a>
+                    <img id="menuItems" src="../images/dining/menu1.jpg" alt="Menu Icon" onclick="showHideMenu()"> 
                     <figcaption>Food Menu</figcaption>
                 </figure>
                 <figure class="drinks">
-                    <a href="../images/dining/wine2.jpg" target="_blank">
-                        <img src="../images/dining/wine1.png" alt="">
-                    </a>
+                    <img id="drinksMenu" src="../images/dining/wine1.png" alt="Drinks icon" onclick="showHideDrinks()">
                     <figcaption>Wine menu</figcaption>
                 </figure>
                 
             </div>
+        </div>
+
+        <div id="menuImages" style="display: none;">
+            <figure id="menuImagesFigure">
+                <img id="menuImagesItem" src="" alt="menu image">
+            </figure>
         </div>
         
       </main>
@@ -81,5 +83,6 @@
             <a href="#"> <img src="../images/cover/insta.png" alt="instagram logo"> </a>
         </div>
       </footer>
+      <script src="../scripts/dining/buono-italiano.js"></script>
 </body>
 </html>

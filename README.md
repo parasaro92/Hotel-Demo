@@ -70,36 +70,36 @@ _Each memeber will be taking up 3 pages from different sections to experience th
 </sup>
 
 ### ► Paras
-1. Home <sub>[1]</sub>
-2. Rooms main page <sub>[2]</sub>
-3. Deluxe Room page <sub>[3]</sub>
+1. Home <sub>[1]</sub> ( http://127.0.0.1:5500/cover-page.html )
+2. Rooms main page <sub>[2]</sub> ( http://127.0.0.1:5500/rooms_views/rooms.html )
+3. Deluxe Room page <sub>[3]</sub> ( http://127.0.0.1:5500/rooms_views/deluxe-room.html )
 
 ---
 
 ### ► Diwakar  
-1. Dining main page <sub>[5]</sub>
-2. Buono Italiano page <sub>[7]</sub>
-3. Conference page <sub>[11]</sub>
+1. Dining main page <sub>[5]</sub> ( http://127.0.0.1:5500/dining_views/dining_mainpage.html )
+2. Buono Italiano page <sub>[7]</sub> ( http://127.0.0.1:5500/dining_views/buono_italiano.html )
+3. Conference page <sub>[11]</sub> ( http://127.0.0.1:5500/event_views/conference_page.html )
 
 ---
 
 ### ► Temi
-1. Events main page <sub>[9]</sub>
-2. Training page <sub>[10]</sub>
-3. Swad India page <sub>[6]</sub>
+1. Events main page <sub>[9]</sub> ( http://127.0.0.1:5500/event_views/events_main-page.html )
+2. Training page <sub>[10]</sub> ( http://127.0.0.1:5500/event_views/training_page.html )
+3. Swad India page <sub>[6]</sub> ( http://127.0.0.1:5500/dining_views/swad_indian.html )
 ---
 
 ### ► Rakesh 
-1. Fitness main page <sub>[12]</sub>
-2. Sauna and Indoor Pool page <sub>[13]</sub>
-3. Regency Patisserie page <sub>[8]</sub>
+1. Fitness main page <sub>[12]</sub> ( http://127.0.0.1:5500/fitness_views/Wellness.html )
+2. Sauna and Indoor Pool page <sub>[13]</sub> ( http://127.0.0.1:5500/fitness_views/SaunaPool.html )
+3. Regency Patisserie page <sub>[8]</sub> ( http://127.0.0.1:5500/dining_views/Foodie.html )
 
 ---
 
 ### ► Prem
-1. Blog Layout and listing <sub>[14]</sub>
-2. Detailed blog <sub>[15]</sub>
-3. Premium Room page <sub>[4]</sub>
+1. Blog Layout and listing <sub>[14]</sub> ( http://127.0.0.1:5500/blog_views/blog.html )
+2. Detailed blog <sub>[15]</sub> ( http://127.0.0.1:5500/blog_views/main-blog-detail.html )
+3. Premium Room page <sub>[4]</sub> ( http://127.0.0.1:5500/rooms_views/premium-room.html )
 
 
 

@@ -59,27 +59,27 @@
 
         <div class="centered-blocks center-content display-flex "> 
             <div class="block" >
-                <img src="../images/event/dummy2.jpg" alt="">
+                <img id="slideshowStylish" src="../images/event/dummy2_1.jpg" alt="">
                 <h3>Stylish</h3>
             </div>
 
             <div class="block">
-                <img src="../images/event/dummy5.jpg" alt="">
+                <img id="slideshowLit" src="../images/event/dummy5_1.jpg" alt="">
                 <h3>Well Lit</h3>
             </div>
 
             <div class="block">
-              <img src="../images/event/dummy1.jpg" alt="">
+              <img id="slideshowComfortable" src="../images/event/dummy1_1.jpg" alt="">
               <h3>Comfortable Seating</h3>
           </div>
 
             <div class="block">
-                <img src="../images/event/dummy3.jpg" alt="">
+                <img id="slideshowElegant" src="../images/event/dummy3_2.jpg" alt="">
                 <h3>Elegant environment</h3>
             </div>
 
             <div class="block">
-                <img src="../images/event/dummy4.jpg" alt="">
+                <img id="slideshowModular" src="../images/event/dummy4_2.jpg" alt="">
                 <h3>Modular look</h3>
             </div>
         </div>
@@ -100,7 +100,13 @@
     
         <div class="center-content">
             <h2 class="border-bottom">Get Quotation</h2>
-            <p>Call +1 474-12345</p>
+            <form>
+                <input id="name" name="name" type="text" placeholder="Name" class="username"/>
+                <input id="contact" name="contact" type="text" placeholder="Contact number" class="username"/>
+                <input id="email" name="email" type="text" placeholder="Email" class="username"/>
+             </form>
+             <button onclick="displayMessage()">Get a call back!</button>
+             <div id="displayMessage" class="center-content"></div>
         </div>
       </main>
 
@@ -119,5 +125,7 @@
             <a href="#"> <img src="../images/cover/insta.png" alt="instagram logo"> </a>
         </div>
       </footer>
+
+      <script src="../scripts/event/conference-page.js"></script>
 </body>
 </html>

@@ -60,14 +60,13 @@ Used in main section */
 }
 .menu-items figure{
     padding: 30px;
+    
 }
 .menu-items img{
     width: 100px;
     border-radius: 200px;
 }
-.menu-items a{
-    text-decoration: none;
-}
+
 .menu-items figure:hover{
     background-color: #DCDCDC;
 }
@@ -81,3 +80,16 @@ Used in main section */
 .drinks:hover {
     transform: rotate(-5deg);
   }
+
+
+/* Menu Image div default display none. Will change with javascript */
+#menuImages{
+    display: none;
+    width: 80%;
+    margin: 0 auto;
+}
+#menuImages img{
+    display:block;
+    margin:auto;
+    padding-top: 10px;
+}

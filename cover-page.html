@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="styles/cover-slider.css">
 
     <!-- Added hamburger menu -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="scripts/navbar.js"></script>
   </head>
 
@@ -129,6 +129,50 @@
             <img class="tm-roomimage img-responsive gallery" src="images/cover/blog.jpeg">
           </a>
         </section>
+
+        <!-- Guest Review Section -->
+        <section class="review-container" onload="fetchIssues()">
+          <section class="cover-head">
+            <div class="">
+              <p class="cover-block">Guest Reviews</p>
+            </div>
+            <hr>
+          </section>
+          <form id="issueInputForm">
+            <div class="form-group">
+              <label for="issueNameInput">Name</label>
+              <input type="text" class="form-control" id="issueNameInput" placeholder="Enter full name">
+            </div>
+            <div class="form-group">
+              <label for="issueEmailInput">Title of your review</label>
+              <input type="text" class="form-control" id="issueEmailInput" placeholder="Summarize your visit or highlight an interesting detail">
+            </div>
+            <div class="form-group">
+              <label for="issueDescInput">Your review</label>
+              <textarea rows="6" name="comment" id="issueDescInput" placeholder="By sharing your experiences, you're helping travelers make better choices and plan their dream trips. Thank you!"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="issueSeverityInput">Rating</label>
+              <select id="issueSeverityInput" class="form-control">
+                <option value="1">One Star</option>
+                <option value="2">Two Star</option>
+                <option value="3">Three Star</option>
+                <option value="4">Four Star</option>
+                <option value="5">Five Star</option>
+              </select>
+            </div>
+            <button type="submit" class="btn custom_btn">Submit</button>
+          </form>
+
+          <div class="col-lg-12 ">
+            <div class="stars-outer" style="display: none">
+              <div class="stars-inner"></div>
+            </div>
+            <!-- Reviews Listing -->
+            <div id="issuesList">
+            </div>
+          </div>
+        </section>
       </div>
       
       <!-- Footer -->
@@ -145,5 +189,8 @@
         </div>
       </footer>
     </section>
+
+    <!-- For Review JS -->
+    <script src="scripts/review.js"></script>
   </body>
 </html>

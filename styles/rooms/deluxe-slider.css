@@ -13,3 +13,31 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+h1 {
+  font-size: 40px;
+  color: #fff;
+}
+
+.checkout {
+  background-color: #6AB1BE;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.book {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.room-head {
+  margin-bottom: 1%;
+}
