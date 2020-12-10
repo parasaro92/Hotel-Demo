@@ -5,6 +5,11 @@
   background-image: url(../images/cover/cover2.jpg);
 }
 
+.col_red { 
+  color: #FE5253;
+  padding: 6px 2px;
+}
+
 .tm-room1 {
   max-width: 22.33333%;
   width: 33.333333%;
@@ -147,7 +152,7 @@ textarea {
   transition: 0.3s;
 }
 
-#issuesList .well {
+#reviewsList .well {
   margin: 50px 0;
   padding: 19px;
   /* display: flex;
