@@ -85,9 +85,9 @@ _Each memeber will be taking up 3 pages from different sections to experience th
 ---
 
 ### ► Temi
-1. Events main page <sub>[9]</sub> ( http://127.0.0.1:5500/event_views/events_main-page.html )
-2. Training page <sub>[10]</sub> ( http://127.0.0.1:5500/event_views/training_page.html )
-3. Swad India page <sub>[6]</sub> ( http://127.0.0.1:5500/dining_views/swad_indian.html )
+1. Events main page <sub>[9]</sub> ( https://tefisher14.github.io/regency/event_views/events_main-page.html )
+2. Training page <sub>[10]</sub> ( https://tefisher14.github.io/regency/event_views/training_page.html )
+3. Swad India page <sub>[6]</sub> ( https://tefisher14.github.io/regency/dining_views/swad_indian.html )
 ---
 
 ### ► Rakesh 
