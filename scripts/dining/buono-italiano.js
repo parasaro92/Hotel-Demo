@@ -44,12 +44,12 @@ function showHideMenu(){
     //if image is not visible, make it visible
     if (x.style.display === "none") {
         x.style.display = "block";
-        document.getElementById("menuImagesItem").setAttribute("src", "../../images/dining/italian2.jpg");
+        document.getElementById("menuImagesItem").setAttribute("src", "../images/dining/italian2.jpg");
         window.location='#menuImages';
     }
     //if drinks menu is visible, hide that and show eatables menu
-    else if( x.style.display === "block" && y === "../../images/dining/wine2.jpg" ){
-        document.getElementById("menuImagesItem").setAttribute("src", "../../images/dining/italian2.jpg");
+    else if( x.style.display === "block" && y === "../images/dining/wine2.jpg" ){
+        document.getElementById("menuImagesItem").setAttribute("src", "../images/dining/italian2.jpg");
         //Jumps to a div in webpage
         window.location='#menuImages';
     }
@@ -70,13 +70,13 @@ function showHideDrinks(){
     //if image is not visible, make it visible
     if (x.style.display === "none") {
         x.style.display = "block";
-        document.getElementById("menuImagesItem").setAttribute("src", "../../images/dining/wine2.jpg");
+        document.getElementById("menuImagesItem").setAttribute("src", "../images/dining/wine2.jpg");
         //Jumps to a div in webpage
         window.location='#menuImages';
     }
     //if eatables menu is visible, hide that and show drinks menu
-    else if( x.style.display === "block" && y === "../../images/dining/italian2.jpg" ){
-        document.getElementById("menuImagesItem").setAttribute("src", "../../images/dining/wine2.jpg");
+    else if( x.style.display === "block" && y === "../images/dining/italian2.jpg" ){
+        document.getElementById("menuImagesItem").setAttribute("src", "../images/dining/wine2.jpg");
         window.location='#menuImages';
     }
     //if drinks menu is visible, hide it
