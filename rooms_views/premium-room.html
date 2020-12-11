@@ -13,9 +13,6 @@
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/blog_styles/blog.css">
 
-    <!-- Added hamburger menu -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="../scripts/navbar.js"></script>
 </head>
 <body>
     <header class="cover-header">
@@ -23,7 +20,7 @@
             <div class="menu">
                 <img class="cover-logo" src="../images/cover/cover.png" alt="Regency Hotel">
                 <ul class="clearfix">
-                    <li><a href="../cover-page.html">Home</a></li>
+                    <li><a href="/regency">Home</a></li>
                     <li><a href="../rooms_views/rooms.html">Rooms</a></li>
                     <li><a href="../dining_views/dining_mainpage.html">Dining</a></li>
                     <li><a href="../event_views/events_main-page.html">Events</a></li>
@@ -37,7 +34,7 @@
     <main>
 
         <div class="main-blog">
-            <img src="../images/rooms/premium/premium1.jpg" alt="" />
+            <img src="../images/rooms/premium/premium1.jpg" alt=""  name="premiumslideshow" id="premiumslideshow" />
             <div class="blog-detail-header">
                 <h1>Premium Room</h1>
             </div>
@@ -88,10 +85,12 @@
                 <div class="content">
                     <span>Feature</span>
                     <h2>Guest Feedback</h2>
-                    <p>
+                    <p id="feedbackslider">
                         “I recently spent the night in the Premium room. The quality of the interior and the view
                         seen outside from the window have convinced me to return again soon!”
                     </p>
+                    <button id="preBtn" onclick="changeFeedback(-1)"><i class="ion-arrow-left-b"></i></button>
+                    <button id="nextBtn" onclick="changeFeedback(1)"><i class="ion-arrow-right-b"></i></button>
                 </div>
             </article>
         </div>
@@ -108,5 +107,10 @@
             <a href="#"> <img src="../images/cover/insta.png" alt="insta"> </a>
         </div>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="../scripts/navbar.js"></script>
+    <script src="../scripts/blog/autoslide.js"></script>
+    <script src="../scripts/blog/feedback-slider.js"></script>
 </body>
 </html>

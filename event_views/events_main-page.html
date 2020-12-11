@@ -23,7 +23,7 @@
                 <div class="menu">
                     <img class="cover-logo" src="../images/cover/cover.png" alt="Regency Hotel">
                     <ul class="clearfix">
-                        <li><a href="../cover-page.html">Home</a></li>
+                        <li><a href="/regency">Home</a></li>
                         <li><a href="../rooms_views/rooms.html">Rooms</a></li>
                         <li><a href="../dining_views/dining_mainpage.html">Dining</a></li>
                         <li><a href="../event_views/events_main-page.html">Events</a></li>
@@ -53,29 +53,32 @@
                 <br>
             <div class="flex"> 
                 <section class="content1">
-                    <h3 class="personal">Personal</h3>
-                    <img class="image1" src="../images/event/conference.jpg" alt="event hall">
+                    <h3 id="heading1" class="personal"></h3>
+                    <img class="image1" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../images/event/conference.jpg"  alt="event hall" height="200px";
+                    max-width="100%">
                     <p class="personal">Benefit from tailored solutions designed around your goals and individual requirements. The Tribe Resort gives you your own dedicated point of contact who’ll coordinate everything for you 
                                 and work with our experts across the business to ensure everything goes as planned—bringing your vision to life. On the day of the event you’ll be able to access on-demand support at the touch of a button. 
                     </p>
-                    <a href="./training_page.html" class="button-read-main-blog">Read More</a>
+                    <a href="./training_page.html" class="button-next-page" onmouseover="style.color='black'" onmouseout="style.color='white'">Read More</a>
                 </section>
                 <section class="content2">
-                    <h3 class="exhibition">Professional</h3>
-                    <img class="image2" src="../images/event/exhibition.jpg" alt="Exhibition Hall">
+                    <h3 id="heading2" class="exhibition"></h3>
+                    <img class="image2" onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="../images/event/exhibition.jpg" alt="Exhibition Hall" height="200px";
+                    max-width="100%">
                     <p class="exhibition"> Enjoy peace of mind knowing that our professional team, driven by our Yes I Can! spirit, will help you plan and execute your event flawlessly. 
                     Right from the start, you can rely on our quick response. We’ll send you a comprehensive proposal or consultation and provide transparent pricing within just four hours of your inquiry. 
                     We ensure that you’re provided with everything needed to make your event a success, from free Wi-Fi to modern audiovisual technology.
                     </p>
-                    <a href="./conference_page.html" class="button-read-main-blog">Read More</a>
+                    <a href="./conference_page.html" class="button-next-page" onmouseover="style.color='black'" onmouseout="style.color='white'">Read More</a>
                 </section>
                 <section class="content3">
-                    <h3 class="memorable">Memorable</h3>
-                    <img  class="image3" src="../images/event/food.jpg" alt="Food">
+                    <h3 id="heading3" class="memorable"></h3>
+                    <img  class="image3" onmouseover="bigImg(this)" onmouseout="normalImg(this)"   src="../images/event/food.jpg" alt="Food" height="200px";
+                    max-width="100%">
                     <p class="memorable">We want to surprise and delight your delegates by creating a memorable experience. Our distinctive hotel brand offers a portfolio of outstanding beautifully designed venues in the best location that are guaranteed to impress your guests. 
                     Beyond this, you can expect carefully designed menus, complimentary treats for your delegates in the meeting room as well as other add-ons and personal touches that will help turn a successful meeting or event into a truly memorable one.
                     </p>
-                    <a href="./events_main-page.html" class="button-read-main-blog">Read More</a>
+                    <a href="./events_main-page.html" class="button-next-page" onmouseover="style.color='black'" onmouseout="style.color='white'">Read More</a>
                 </section>     
             </div>
 
@@ -92,5 +95,6 @@
                 </div>
         </footer>
     </section>
+    <script src="../scripts/event/events_main-page.js"></script>
 </body>
 </html>

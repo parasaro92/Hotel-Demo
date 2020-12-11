@@ -24,7 +24,7 @@
             <div class="menu">
                 <img class="cover-logo" src="../images/cover/cover.png" alt="Regency Hotel">
                 <ul class="clearfix">
-                    <li><a href="../cover-page.html">Home</a></li>
+                    <li><a href="/regency">Home</a></li>
                     <li><a href="../rooms_views/rooms.html">Rooms</a></li>
                     <li><a href="../dining_views/dining_mainpage.html">Dining</a></li>
                     <li><a href="../event_views/events_main-page.html">Events</a></li>
@@ -58,17 +58,7 @@
         <section class="map-content">
             <div id="googleMap" ></div>
 
-            <script class="map">
-                function myMap() {
-                var mapProp= {
-                center:new google.maps.LatLng(20.5937,78.9629),
-                zoom:5,
-                };
-                var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-                }
-            </script>
-            <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBxnFlBqC31yKTpuJ5KDEHgdlCRnnGAqKU&callback=myMap">
-            </script>
+
         </section>
         <!--Image of cusine-->
         <section class="image-content">
@@ -110,16 +100,16 @@
         </section>
     </div>
 </section>
-<!-- <footer class="cover-footer"> -->
-    <!-- <div class="cover-address"> -->
-        <!-- <p>007, Atlanta Park India Phone : (211) 9275693451 <br> Email : tribe@info.com</p> -->
-    <!-- </div> -->
-    <!-- <div class="cover-social"> -->
-        <!-- <a href="#"> <img src="../images/general/fb.png" alt="facebook"></a> -->
-        <!-- <a href="#"> <img src="../images/general/G.png" alt="google"> </a> -->
-        <!-- <a href="#"> <img src="../images/general/twittr.png" alt="twitter"> </a> -->
-        <!-- <a href="#"> <img src="../images/general/insta.png" alt="instagram"> </a> -->
-    <!-- </div> -->
-<!-- </footer>    -->
+    <script>
+        function myMap() {
+        var mapProp= {
+        center:new google.maps.LatLng(20.5937,78.9629),
+        zoom:5,
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBxnFlBqC31yKTpuJ5KDEHgdlCRnnGAqKU&callback=myMap">
+    </script>
 </body>
 </html>

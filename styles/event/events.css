@@ -51,6 +51,29 @@ p {
 /*****************
 Main.
 *****************/
+/* Styling for cover section */
+.cover {
+    background-image: url(../../images/event/backgroundpicture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    margin-bottom: 20px;
+    height: 100vh;
+    opacity: 0.9;
+
+}
+
+.note {
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 45%; /* Full width */
+    padding: 20px;
+    position: absolute;
+    bottom: -50px;
+    left: 16px;
+ }
+
+/* Styling for the experience section */
 .topic {
     display: flex;
     justify-content: center;
@@ -66,25 +89,7 @@ hr.new {
     border: 1px solid black;
     color: rgb(48, 46, 46);
 }
-.cover {
-    background-image: url(../../images/event/backgroundpicture.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-    margin-bottom: 20px;
-    height: 100vh;
-    opacity: 0.9;
 
-}
-.note {
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-    color: #f1f1f1; /* Grey text */
-    width: 45%; /* Full width */
-    padding: 20px;
-    position: absolute;
-    bottom: -50px;
-    left: 16px;
- }
 
 .content1 {
  
@@ -92,17 +97,12 @@ hr.new {
     padding: 10px;
     background-color: white;
     width: 30%;
-    /* height: 500px; */
     border-radius: 10px;
 }
 .content2 {
-    /*float: left;*/
-    /* margin: 0 0px 0 10; */
-    /*margin-right: auto;*/
     padding: 10px;
     background-color: white;
     width: 30%;
-    /* height: 500px; */
     border-radius: 10px;
 }
 .content3 {
@@ -122,6 +122,27 @@ hr.new {
     margin-bottom: 20px;
 
 }
+
+.button-next-page {
+    position: relative;
+    padding: 10px 32px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    background: none;
+    border-radius: 0;
+    letter-spacing: 1px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.button-next-page {
+    background: #716e6e;
+}
  /*****************
 Personal Section.
 *****************/
@@ -133,6 +154,8 @@ Personal Section.
     line-height: 200%;
     color: rgb(114, 113, 113);
 }
+
+
 /*****************
 Exhibition Section.
 *****************/
@@ -144,6 +167,8 @@ Exhibition Section.
     line-height: 200%;
     color: rgb(114, 113, 113);
 }
+
+
 /*****************
 Memorable Section.
 *****************/
@@ -155,13 +180,13 @@ Memorable Section.
     line-height: 200%;
     color: rgb(114, 113, 113);
 }
- .image1 {
+ /* .image1 {
      height: 200px;
      max-width: 100%;
      padding: 10px;
      position: relative;
- }
- .image2 {
+ } */
+ /* .image2 {
     height: 200px;
     max-width: 100%;
     padding: 10px;
@@ -173,16 +198,4 @@ Memorable Section.
     max-width: 100%;
     padding: 10px;
     position: relative;
-}
-/*****************
-Footer.
-*****************/
-/* footer { 
-    /* clear: both;
-}*/
-/*footer {
-
-    background-color: white;
-    padding: 1em;
-    text-align: center;
-}
+} */
