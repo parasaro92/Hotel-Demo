@@ -1,15 +1,4 @@
 /*****************
-Header.
-*****************/
-.logo {
-  width: 80px;
-  position: relative;
-  float: left;
-  height: 80px;
-  width: 100px;
-}
-
-/*****************
 Global styles.
 *****************/
 * {
@@ -20,23 +9,30 @@ div {
   display: block;
 }
 body {
-  background-color: lightgrey;
+  background-color: rgb(235, 235, 235);
   font: 100% Arial, Helvetica, sans-serif;
   line-height: 1.5;
   /* border-bottom: 10px solid gold;  */
   margin: 0;
 }
 
-
-
 p {
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-  line-height: 150%;
-  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(68, 67, 67);
+  line-height: 150%;  
 }
+
 /*****************
-Main.
+Header.
 *****************/
+.logo {
+  width: 80px;
+  position: relative;
+  float: left;
+  height: 80px;
+  width: 100px;
+}
+
 .main-nav {
   float: bottom;
   list-style: none;
@@ -59,6 +55,9 @@ Main.
   border: 1px solid black;
 }
 
+/*****************
+Main.
+*****************/
 main {
  
   width: 100%;
@@ -66,39 +65,264 @@ main {
 
 }
 
-#area-section {
-  background-color: #717171;
+/* Style for image slider*/
+.slideshow-container {
+  position: relative;
+  width: 100%;
+}
+h1 {
+  color: rgb(49, 49, 49);
+}
+/* This section styles the Planning event section*/
+.planning-event h1 {
+  flex-basis: 50%;
+  text-align: center;
+  
+  /* padding: 40px; */
+}
+.planning-event-content {
+  padding: 20px;
+  text-align: center;
+}
+
+/*This section styles the types of meeting rooms*/
+
+.container {
+  background-color: #ffffff;
+}
+.meeting-event-section {
+  display: flex;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    width: 50%;
+    /* border: 1px solid #000000; */
+    float: left;
+}
+
+.meeting-event-section2 {
+  display: flex;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    width: 50%;
+    /* border: 1px solid #000000; */
+    float: left;
+}
+.meeting-room-box {
+  text-align: center;
+}
+.meeting-room-box2 p {
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+.row {
+  margin: 20px;
+  padding: 20px;
+}
+.meeting-event-seating-arrangement-wrapper li {
+ list-style-type: none;
+ border: 1px solid  rgb(49, 49, 49);;
+ display: inline;
+ padding: 20px 20px 20px 20px; 
+ margin: 5px 20px; 
+ align-items: center;
+ border-radius: 10px;
+ justify-content: space-around;
+}
+
+/* .meeting-inner-container {
+  justify-content: space-around;
+} */
+
+.seeting-top-section {
+  align-items: center;
+  
+}
+.area-section1 {
+  background-color: rgb(49, 49, 49);
+  width: 33%;
+  border: 1px solid white;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 4px;
+  float: left;
+}
+
+.area-section2 {
+  background-color: rgb(49, 49, 49);
+  width: 33%;
+  border: 1px solid white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+  float: left;
+}
+
+.area-section3 {
+  background-color: rgb(49, 49, 49);
+  width: 33%;
+  border: 1px solid white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+  float: left;
+}
+.area-content p {
+  color: #ffffff;
 }
 
 form {
-  padding: 20px;
-  background-color: white;
+  padding: 10px;
+  width: 20%;
+  margin: 0 auto;
+  color: rgb(49, 49, 49);
+  font-weight: bold;
+  text-align: center;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
 }
 
-/* Slideshow container */
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-    /* overflow: hidden; */
-  }
-  
+input[type=date], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
 
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+input[type=submit] {
+  background-color: rgb(49, 49, 49);
+  color: white;
+  padding: 12px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(49, 49, 49);
+}
+
+
+@media(min-width:769px){
+  img {
+  max-height: 800px;
+  border-radius: 4px;
+}
+/* Style for image slider*/
+.slideshow-container {
+  position: relative;
+  width: 100%;
+}
+h1 {
+  color: rgb(49, 49, 49);
+}
+/* This section styled Planning event section*/
+.planning-event h1 {
+  flex-basis: 50%;
+  text-align: center;
   
-  /* Fading animation */
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
+  /* padding: 40px; */
+}
+.planning-event-content {
+  padding: 20px;
+  text-align: center;
+}
+
+/*This section styles the types of meeting rooms*/
+
+.container {
+  background-color: #ffffff;
+}
+.meeting-event-section {
+  display: flex;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    width: 50%;
+    /* border: 1px solid #000000; */
+    float: left;
+}
+
+.meeting-event-section2 {
+  display: flex;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    width: 50%;
+    /* border: 1px solid #000000; */
+    float: left;
+}
+.area-section3 {
+  background-color: rgb(49, 49, 49);
+  width: 33%;
+  border: 1px solid white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+  float: left;
+}
+form {
+  padding: 10px;
+  width: 20%;
+  margin: 0 auto;
+  color: rgb(49, 49, 49);
+  font-weight: bold;
+  text-align: center;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=date], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+input[type=submit] {
+  background-color: rgb(49, 49, 49);
+  color: white;
+  padding: 12px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(49, 49, 49);
+}
+}

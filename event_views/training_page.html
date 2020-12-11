@@ -15,7 +15,7 @@
     <!-- Added hamburger menu -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="../scripts/navbar.js"></script>
-    <script src="../scripts/event/training-page.js"></script>
+   
 </head>
 <body>
 <!-- Team header -->
@@ -37,131 +37,148 @@
     <main>
          <!--Images for slider-->
         <div class="slideshow-container">
-            <div class="mySlide fade">
-                <img id="myimage1" src="../images/event/meeting-room-with-a-view-of-dtla.jpg" alt="conference room" width="1000px" height="500px">
+            <div class="myimage-container">
+                <img id="myimage1" src="../images/event/meeting-room-with-a-view-of-dtla.jpg" alt="conference room" width="100%" height="auto">
             </div>
-            <!--Next and previous buttons-->
-            <!-- <button id="prevBtn" onclick="plusSlides(-1)">Prev</button> -->
-            <!-- <button id="nextBtn" onclick="plusSlides(-1)">Next</button> -->
-
-            <!--<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(-1)">&#10095;</a>-->
         </div>
+     
+        <!--Planning Event Section-->
+        <div class="planning-event">
+            <h1 id="test" class="title"></h1>
+            <div class="planning-event-content">
+                <p> The Regency offers four function venues ideal for coorperate meetings & events, private banquets and social gatherings.  
+                    Floor-to-ceiling windows fringe our function spaces, delivering an inspirational setting for any small-scale corporate gatherings or seminars.
+                    All our meeting rooms are fully equipped with a TV screen, wireless technology and can be configured exactly to your needs.
+                    Meanwhile, as you'd expect, everything is taken care of. With dedicated meeting planners, your own Meeting Concierge, and a specialist AV team, 
+                    you'll have everything (and everyone) you need to make the event run perfectly.</p>
+                    <br>
+                    <br>
+                <p>
+                    Wi-fi available throughout hotel
+                    <br>
+                    Excellent quality sound system with large screen television
+                    <br>
+                    Meeting room capacity from 4 - 100 with flexible options
+                </p> 
+            </div>
+        </div>
+        <div class="container">
 
-        <h1>Planning an Event?</h1>
-        <p> The Regency offers four function venues ideal for coorperate meetings & events, private banquets and social gatherings.  
-            Floor-to-ceiling windows fringe our function spaces, delivering an inspirational setting for any small-scale corporate gatherings or seminars.
-            All our meeting rooms are fully equipped with a TV screen, wireless technology and can be configured exactly to your needs.
-            Meanwhile, as you'd expect, everything is taken care of. With dedicated meeting planners, your own Meeting Concierge, and a specialist AV team, 
-            you'll have everything (and everyone) you need to make the event run perfectly.</p>
-            <br>
-            <br>
-        <p>
-            "Wi-fi available throughout hotel"
-            <br>
-            "Excellent quality sound system with large screen television"
-            <br>
-            "Meeting room capacity from 4 - 100 with flexible options "
-        </p> 
-        
-        <div class="meeting_event-section">
-            <div class="row">
-                <div class="col-12 col-xl-6 col-md-6 col-lg-6 col-sm-6">
+            <div class="meeting-event-section">
+                <div class="row">
+                        <div class="meeting-room-box">
+                            <img src="../images/event/the-marshall.jpg" alt="the marshall boardroom" width=100% height=auto>
+                            <div class="meeting_event-hover">
+                                <h4>The Marshal Boardroom</h4>
+                                <hr class="title-hr">
+                                <div class="meeting-event-content1">
+                                    <p>
+                                        The Marshal Board is the most sought after meeting room space. It seats up to 12 delegates who a surrounded 
+                                        by a beautiful external view of the city. This private room is highly equipped with audio-visual equipments, 
+                                        there's no other place you'd want to have an important meeting at.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="meeting-event-section2">
+                <div class="row">
                     <div class="meeting-room-box">
-                        <img src="../images/event/the-marshall.jpg" alt="the marshall boardroom" width="385px" height="285px">
-                        <div class="meeting_event-hover">
-                            <h4>Marshall Boardroom</h4>
+                        <img src="../images/event/the-opulence.jpg" alt="meeting room image" width=100% height=auto>
+                        <div class="meeting-event-hover">
+                            <h4>The Opulence Meeting Room</h4>
                             <hr class="title-hr">
-                            <p>
-                                "The Marshall Board is the most sought after meeting room space. It seats up to 12 delegates who a surrounded 
-                                by a beautiful external view of the city. This private room is highly equipped with audio-visual equipments, 
-                                there's no other place you'd want to have an important meeting at. "
-                            </p>
+                            <div class="meeting-event-content2">
+                                <p>
+                                    The well-appionted Opulence is ideal for trainings and product launches. It seats up to 30 delegates.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-12 col-xl-6 col-md-6 col-lg-6 col-sm-6">
-            <div class="meeting-room-box">
-                <img src="../images/event/the-opulence.jpg" alt="meeting room image" width="385px" height="285px">
-                <div class="meeting_event-hover">
-                    <h4>Opulence Meeting Room</h4>
-                    <hr class="title-hr">
-                    <p>
-                        "The well-appionted Opulence is ideal for trainings and product launches. It seats up to 30 delegates. "
-                    </p>
+        
+            <div class="clear"></div>
+            <br>
+            <div id="view-setup" class="meeting-event-seating-arrangement-wrapper">
+                <div class="meeting-inner-container">
+                    <div class="seeting-top-section">
+                        <ul id="list" class="hall-ul hall-center">
+                            <li>The Marshal</li>
+                            <li>The Opulence</li>
+                            <li>The Aralia</li>
+                            <li>The Sans</li>
+                        </ul>
+                    </div>    
                 </div>
             </div>
-        </div>
-        <div id="view-setup" class="meeting-event-seating-arrangement-wrapper">
-            <div class="meeting-inner-container">
-                <div class="seeting-top-section">
-                    <ul>
-                        <li>The Marshal</li>
-                        <li>The Opulence</li>
-                        <li>The Aralia</li>
-                        <li>The Sans</li>
-                    </ul>
-                </div>    
-            </div>
-        </div>
-        <div id="area-details" class="area-details-wrapper">
-            <div class="row">
-                <div class="col-md-4 col-lg-4 col-xl-4 col-sm-12">
+       
+            <div id="area-details" class="area-details-wrapper">
+                <div class="row">
                     <div class="area-section1">
-                        <p>Length: 12.3m</p>
-                        <p>Width: 7.09m</p>
-                        <p>Height: 2.30m</p>
-                        <p>Area Square Meter: 97m</p>
+                        <div class="area-content">
+                            <p>Length: 12.3m</p>
+                            <p>Width: 7.09m</p>
+                            <p>Height: 2.30m</p>
+                            <p>Area Square Meter: 97m</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-xl-4 col-sm-12">
-                    <div class="area-section2">
-                        <p>Length: 7.04m</p>
-                        <p>Width: 4.75m</p>
-                        <p>Height: 3.20m</p>
-                        <p>Area Square Meter: 35m</p>
+                    <div class="col-md-4 col-lg-4 col-xl-4 col-sm-12">
+                        <div class="area-section2">
+                            <div class="area-content">
+                                <p>Length: 7.04m</p>
+                                <p>Width: 4.75m</p>
+                                <p>Height: 3.20m</p>
+                                <p>Area Square Meter: 35m</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-xl-4 col-sm-12">
-                    <div class="area-section3">
-                        <p>Length: 5.94m</p>
-                        <p>Width: 3.84m</p>
-                        <p>Height: 2.85m</p>
-                        <p>Area Square Meter: 23m</p>
+                    <div class="col-md-4 col-lg-4 col-xl-4 col-sm-12">
+                        <div class="area-section3">
+                            <div class="area-content">
+                                <p>Length: 5.94m</p>
+                                <p>Width: 3.84m</p>
+                                <p>Height: 2.85m</p>
+                                <p>Area Square Meter: 23m</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="clear"></div>
         </div>
         <!--Booking form-->
         <div class="form-section">
             <div class="form-container">
-                <form>
-                    <label for="fname"> Full Name </label> <br>
-                    <input type="text" id="fname" name="fullname"  placeholder="Enter your full name.." /> 
-                    <br>
+                <form method="get" onSubmit="return validateForm();" name="contactform" id="contactform" action="./events_main-page.html">
+                    <label for="fullname"> Full Name </label> 
+                    <input type="text" id="fullname" name="fullname"  placeholder="Enter your full name.."> 
+                    <span></span>
+                    
                     <label for="number">Mobile No</label>
-                    <br>
-                    <input type="text" id="number" name="number" placeholder="Enter your mobile number">
+                    <input type="text" id="phone" name="number" placeholder="Enter your mobile number">
+                    <span></span>
                     <br>
                     <label for="email">Email Address</label>
-                    <br>
                     <input type="text" id="email" name="email" placeholder="Enter your email address">
+                    <span></span>
                     <br>
                     <label for="date"> Dates </label>
                     <br>
-                    <input type="date" id="date" name="date" /> 
+                    <input type="date" id="room_book" name="date"> 
+                    <span></span>
                     <br>
                     <label for="guests"> Number of guests</label>
                     <br>
-                    <input type="text" id="guest" name="guest" />
+                    <input type="text" id="guest" name="guest" >
+                    <span></span>
                     <br>
                     <label for="eventspace"> Event Space</label>
-                    <br>
-                    <input type="text" id="eventspace" name="eventspace" />
-                    <br>
-                    <input type="submit" name="submit" value="Search">
+                    <input type="text" id="eventspace" name="eventspace">
+                    <span></span>
+                    
+                    <input type="submit" id="regform" name="submit" value="Submit">
                 </form>
             </div>
         </div>
@@ -180,5 +197,6 @@
                 <a href="#"> <img src="../images/cover/insta.png" alt="instagram"> </a>
             </div>
     </footer>
+    <script src="../scripts/event/training-page.js"></script>
 </body>
 </html>
