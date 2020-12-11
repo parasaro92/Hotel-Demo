@@ -2,7 +2,7 @@
 // For image banner
 //
 // Declaring an array of images
-var imageArray = ["../images/dining/italian1_1.jpg", "../images/dining/italian1_2.jpg", "../images/dining/italian1_3.jpg", "../images/dining/italian1_4.jpg", "../images/dining/italian1_5.jpg", "../images/dining/italian1_6.jpg"
+var imageArray = ["../images/dining/italian1_1.jpg", "../images/dining/italian1_2.jpg", "../images/dining/italian1_3.jpg", "../images/dining/italian1_4.jpg", "../images/dining/italian1_5.jpg", "../images/dining/italian1_6.jpg"];
 //Automatic slider for images
 var imgNumber = 0;
 var topLimit = imageArray.length - 1;
