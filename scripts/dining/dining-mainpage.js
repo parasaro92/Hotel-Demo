@@ -3,8 +3,8 @@
 //
 // Declaring an array of images
 var imageArrayItalian = ["../images/dining/italian3_1.jpg", "../images/dining/italian3_2.jpg", "../images/dining/italian3_3.jpg", "../images/dining/italian3_4.jpg"];
-var imageArrayIndian = ["../../images/dining/indian1_1.jpg", "../../images/dining/indian1_2.jpg", "../../images/dining/indian1_3.jpg", "../../images/dining/indian1_4.jpg"];
-var imageArrayBakery = ["../../images/dining/bakery2_1.jpeg", "../../images/dining/bakery2_2.jpg", "../../images/dining/bakery2_3.jpg", "../../images/dining/bakery2_4.jpg"];
+var imageArrayIndian = ["../images/dining/indian1_1.jpg", "../images/dining/indian1_2.jpg", "../images/dining/indian1_3.jpg", "../images/dining/indian1_4.jpg"];
+var imageArrayBakery = ["../images/dining/bakery2_1.jpeg", "../images/dining/bakery2_2.jpg", "../images/dining/bakery2_3.jpg", "../images/dining/bakery2_4.jpg"];
 
 //Clicking slider function for images
 var imgNumber = 0;

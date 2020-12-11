@@ -1,8 +1,8 @@
-var imageArrayComfortable = ["../../images/event/dummy1_1.jpg", "../../images/event/dummy1_2.jpg"];
-var imageArrayStylish = ["../../images/event/dummy2_1.jpg", "../../images/event/dummy2_2.jpg"];
-var imageArrayElegant = ["../../images/event/dummy3_2.jpg", "../../images/event/dummy3_1.jpg"];
-var imageArrayModular = ["../../images/event/dummy4_2.jpg", "../../images/event/dummy4_1.jpg"];
-var imageArrayLit = ["../../images/event/dummy5_1.jpg", "../../images/event/dummy5_2.jpg"];
+var imageArrayComfortable = ["../images/event/dummy1_1.jpg", "../images/event/dummy1_2.jpg"];
+var imageArrayStylish = ["../images/event/dummy2_1.jpg", "../images/event/dummy2_2.jpg"];
+var imageArrayElegant = ["../images/event/dummy3_2.jpg", "../images/event/dummy3_1.jpg"];
+var imageArrayModular = ["../images/event/dummy4_2.jpg", "../images/event/dummy4_1.jpg"];
+var imageArrayLit = ["../images/event/dummy5_1.jpg", "../images/event/dummy5_2.jpg"];
 
 
 var imgNumber = 0;
