@@ -342,38 +342,48 @@ span.sub-text {
     color: darkgray;
     text-transform: uppercase;
 }
+
+.ion-arrow-left-b:before, .ion-arrow-right-b:before {
+    font-size: 25px;
+}
+
+#preBtn, #nextBtn {
+    width : 35px;
+    height: 35px;
+}
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     /*.main-nav {
-        display: none;
-    }
+    display: none;
+}
 
-    #mobile-menu {
-        display: block;
-    }
+#mobile-menu {
+    display: block;
+}
 
-    header h1 {
-        width: 40%;
-        font-size: 1.5em;
-    }*/
-
+header h1 {
+    width: 40%;
+    font-size: 1.5em;
+}*/
     .main-blog-content {
         width: 75%;
         padding: 10px;
     }
 
-    .main-blog-content h1 {
-        font-size: 1.5em;
-    }
+        .main-blog-content h1 {
+            font-size: 1.5em;
+        }
 
     .main-container {
         margin-top: 10px;
         flex-flow: column wrap;
     }
 
-    .main-container article {
-        width: 92%;
-    }
+        .main-container article {
+            width: 92%;
+        }
 
     .blog-detail-container {
         width: 85%;
@@ -391,40 +401,46 @@ span.sub-text {
         display: block;
     }
 
-    .premium-room-feature-left img {
-        width: 100%;
-    }
+        .premium-room-feature-left img {
+            width: 100%;
+        }
+
     .premium-room-section {
         display: block;
     }
-    .premium-room-section > img {
-        width: 100%;
-    }
+
+        .premium-room-section > img {
+            width: 100%;
+        }
+
     .premium-room-feature-left > .content {
         padding: 10px 0;
         text-align: center;
     }
+
     .room-main-container {
         margin-top: 0;
     }
+
     .premium-room-section h2 {
         font-size: 30px;
     }
+
     .premium-room-feature-left h2 {
         font-size: 30px;
         text-align: center;
     }
 }
-
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-device-width: 1024px) {
     .blog-detail-container {
         width: 80%;
     }
+
     .premium-room-section img {
         width: 50%;
     }
+
     .premium-room-feature-left img {
         width: 50%;
     }
