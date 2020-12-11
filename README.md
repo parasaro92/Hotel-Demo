@@ -70,10 +70,10 @@ _Each memeber will be taking up 3 pages from different sections to experience th
 </sup>
 
 ### ► Paras
-1. Home <sub>[1]</sub> ( http://parasaro92.github.io/Hotel-Demo/index.html )
-2. Rooms main page <sub>[2]</sub> ( http://parasaro92.github.io/Hotel-Demo/rooms_views/rooms.html )
-3. Deluxe Room page <sub>[3]</sub> ( http://parasaro92.github.io/Hotel-Demo/rooms_views/deluxe-room.html )
-3. Hotel Reservation <sub>[4]</sub> ( http://parasaro92.github.io/Hotel-Demo/rooms_views/hotel-reservation.html )
+1. Home <sub>[1]</sub> ( http://parasaro92.github.io/regency/index.html )
+2. Rooms main page <sub>[2]</sub> ( http://parasaro92.github.io/regency/rooms_views/rooms.html )
+3. Deluxe Room page <sub>[3]</sub> ( http://parasaro92.github.io/regency/rooms_views/deluxe-room.html )
+3. Hotel Reservation <sub>[4]</sub> ( http://parasaro92.github.io/regency/rooms_views/hotel-reservation.html )
 
 ---
 
@@ -98,9 +98,9 @@ _Each memeber will be taking up 3 pages from different sections to experience th
 ---
 
 ### ► Prem
-1. Blog Layout and listing <sub>[14]</sub> ( http://127.0.0.1:5500/blog_views/blog.html )
-2. Detailed blog <sub>[15]</sub> ( http://127.0.0.1:5500/blog_views/main-blog-detail.html )
-3. Premium Room page <sub>[4]</sub> ( http://127.0.0.1:5500/rooms_views/premium-room.html )
+1. Blog Layout and listing <sub>[14]</sub> ( https://premchhantyal.github.io/regency/blog_views/blog.html )
+2. Detailed blog <sub>[15]</sub> ( https://premchhantyal.github.io/regency/blog_views/main-blog-detail.html )
+3. Premium Room page <sub>[4]</sub> ( https://premchhantyal.github.io/regency/rooms_views/premium-room.html )
 
 
 
