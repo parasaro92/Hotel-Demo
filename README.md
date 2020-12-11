@@ -70,9 +70,10 @@ _Each memeber will be taking up 3 pages from different sections to experience th
 </sup>
 
 ### ► Paras
-1. Home <sub>[1]</sub> ( http://127.0.0.1:5500/cover-page.html )
-2. Rooms main page <sub>[2]</sub> ( http://127.0.0.1:5500/rooms_views/rooms.html )
-3. Deluxe Room page <sub>[3]</sub> ( http://127.0.0.1:5500/rooms_views/deluxe-room.html )
+1. Home <sub>[1]</sub> ( http://parasaro92.github.io/Hotel-Demo/index.html )
+2. Rooms main page <sub>[2]</sub> ( http://parasaro92.github.io/Hotel-Demo/rooms_views/rooms.html )
+3. Deluxe Room page <sub>[3]</sub> ( http://parasaro92.github.io/Hotel-Demo/rooms_views/deluxe-room.html )
+3. Hotel Reservation <sub>[4]</sub> ( http://parasaro92.github.io/Hotel-Demo/rooms_views/hotel-reservation.html )
 
 ---
 
