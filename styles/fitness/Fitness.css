@@ -25,7 +25,7 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(/images/fitness/Dumbells.jpeg);
+    background: url(../../images/fitness/Dumbells.jpeg);
     background-size:cover;
 }
 .banner .content
@@ -233,7 +233,7 @@ flex-direction: column;
 
 .experts
 {
-    background: url(Images/LoneDumbells.jpeg);
+    background: url(../../images/fitness/LoneDumbells.jpeg);
     background-size: cover;
 }
 
@@ -283,7 +283,7 @@ flex-direction: column;
 
 .testimonials
 {
-    background: url(Images/Veg.jpg);
+    background: url(../../images/fitness/Veg.jpg);
     background-size: cover;
 }
 
@@ -359,7 +359,7 @@ color:#fff;
 
 .contact
 {
-    background: url(Images/TomAtos.jpg);
+    background: url(../../images/fitness/TomAtos.jpg);
     background-size: cover;
 }
 
@@ -480,7 +480,7 @@ color:#fff;
         position: relative;
         width: 40px;
         height: 40px;
-        background: url(Images/menu.png);
+        background: url(../../images/fitness/menu.png);
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
@@ -496,7 +496,7 @@ color:#fff;
 
     .menuToggle .active
     {
-        background: url(Images/close.png);
+        background: url(../../images/fitness/close.png);
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;

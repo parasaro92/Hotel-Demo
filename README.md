@@ -78,9 +78,9 @@ _Each memeber will be taking up 3 pages from different sections to experience th
 ---
 
 ### ► Diwakar  
-1. Dining main page <sub>[5]</sub> ( http://127.0.0.1:5500/dining_views/dining_mainpage.html )
-2. Buono Italiano page <sub>[7]</sub> ( http://127.0.0.1:5500/dining_views/buono_italiano.html )
-3. Conference page <sub>[11]</sub> ( http://127.0.0.1:5500/event_views/conference_page.html )
+1. Dining main page <sub>[5]</sub> ( https://diwakarsaini.github.io/regency/dining_views/dining_mainpage.html )
+2. Buono Italiano page <sub>[7]</sub> ( https://diwakarsaini.github.io/regency/dining_views/buono_italiano.html )
+3. Conference page <sub>[11]</sub> ( https://diwakarsaini.github.io/regency/event_views/conference_page.html )
 
 ---
 
