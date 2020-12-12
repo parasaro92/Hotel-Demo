@@ -80,7 +80,7 @@ color: white;
 
 /*Banner Image */
 .banner_immage{
-    background: url("/images/fitness/WORKOUT.jpg") no-repeat top center;
+    background: url("../../images/fitness/WORKOUT.jpg") no-repeat top center;
     background-size:cover;
     width: 100%;
     height: 800px;
