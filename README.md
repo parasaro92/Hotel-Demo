@@ -91,9 +91,9 @@ _Each memeber will be taking up 3 pages from different sections to experience th
 ---
 
 ### ► Rakesh 
-1. Fitness main page <sub>[12]</sub> ( http://127.0.0.1:5500/fitness_views/Wellness.html )
-2. Sauna and Indoor Pool page <sub>[13]</sub> ( http://127.0.0.1:5500/fitness_views/SaunaPool.html )
-3. Regency Patisserie page <sub>[8]</sub> ( http://127.0.0.1:5500/dining_views/Foodie.html )
+1. Fitness main page <sub>[12]</sub> ( https://robbiedhania.github.io/regency/fitness_views/Wellness.html )
+2. Sauna and Indoor Pool page <sub>[13]</sub> ( https://robbiedhania.github.io/regency/fitness_views/SaunaPool.html )
+3. Regency Patisserie page <sub>[8]</sub> ( https://robbiedhania.github.io/regency/dining_views/Foodie.html )
 
 ---
 
